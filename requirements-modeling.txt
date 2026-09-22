@@ -1,0 +1,13 @@
+# Top-level dependencies for the IDC modeling workflow.
+# Install only inside the project-local virtual environment.
+pandas==3.0.5
+numpy==2.4.6
+scikit-learn==1.9.0
+statsmodels==0.14.6
+matplotlib==3.11.1
+seaborn==0.13.2
+shap==0.52.0
+openpyxl==3.1.5
+nbformat==5.10.4
+nbclient==0.11.0
+ipykernel==7.3.0

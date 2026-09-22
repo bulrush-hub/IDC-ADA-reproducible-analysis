@@ -1,0 +1,73 @@
+validation_scheme,model,outcome,metric,value
+molecule,Random forest,continuous,MAE,14.189329740831392
+molecule,Random forest,continuous,RMSE,21.973313844371077
+molecule,Random forest,continuous,R2,0.12521593688120802
+molecule,Random forest,continuous,Mean_bias_predicted_minus_observed,-2.0316365344248255
+molecule,Random forest,continuous,Spearman,0.22387862182930815
+molecule,Random forest,continuous,Observed_on_predicted_intercept,4.056791083727439
+molecule,Random forest,continuous,Observed_on_predicted_slope,0.8280081049243787
+molecule,Random forest,continuous,Assessed_n_weighted_MAE,16.095457205692597
+molecule,Random forest,binary,ROC_AUC,0.640068537109654
+molecule,Random forest,binary,PR_AUC,0.47793647775863135
+molecule,Random forest,binary,Brier,0.21173991867409536
+molecule,Random forest,binary,Log_Loss,0.6120658020208967
+molecule,Random forest,binary,F1_at_0.5,0.3388646288209607
+molecule,Random forest,binary,Balanced_Accuracy_at_0.5,0.5603889494532037
+molecule,Random forest,binary,Calibration_in_the_large,-0.28253950279815904
+molecule,Random forest,binary,Calibration_intercept_joint,-0.2826483267799628
+molecule,Random forest,binary,Calibration_slope,0.9997166589651184
+molecule,Random forest,binary,Assessed_n_weighted_Brier,0.22571987697310847
+molecule,TabPFN-3,continuous,MAE,13.408242284405153
+molecule,TabPFN-3,continuous,RMSE,21.557704215931487
+molecule,TabPFN-3,continuous,R2,0.15799482133031284
+molecule,TabPFN-3,continuous,Mean_bias_predicted_minus_observed,-3.032840898857855
+molecule,TabPFN-3,continuous,Spearman,0.2981459810335251
+molecule,TabPFN-3,continuous,Observed_on_predicted_intercept,3.984259148190963
+molecule,TabPFN-3,continuous,Observed_on_predicted_slope,0.9116890683358106
+molecule,TabPFN-3,continuous,Assessed_n_weighted_MAE,13.92044692285981
+molecule,TabPFN-3,binary,ROC_AUC,0.641163214500724
+molecule,TabPFN-3,binary,PR_AUC,0.46671646989635446
+molecule,TabPFN-3,binary,Brier,0.2133409522595305
+molecule,TabPFN-3,binary,Log_Loss,0.6233420218531865
+molecule,TabPFN-3,binary,F1_at_0.5,0.2931726907630522
+molecule,TabPFN-3,binary,Balanced_Accuracy_at_0.5,0.5615577503340077
+molecule,TabPFN-3,binary,Calibration_in_the_large,0.29772221670031646
+molecule,TabPFN-3,binary,Calibration_intercept_joint,-0.07126288117452535
+molecule,TabPFN-3,binary,Calibration_slope,0.6122792635082208
+molecule,TabPFN-3,binary,Assessed_n_weighted_Brier,0.22645360667737555
+study,Random forest,continuous,MAE,12.286537563926137
+study,Random forest,continuous,RMSE,19.484857281321855
+study,Random forest,continuous,R2,0.31213343056582676
+study,Random forest,continuous,Mean_bias_predicted_minus_observed,0.17916631520118215
+study,Random forest,continuous,Spearman,0.5140168211962803
+study,Random forest,continuous,Observed_on_predicted_intercept,1.8017106013455169
+study,Random forest,continuous,Observed_on_predicted_slope,0.858362217307964
+study,Random forest,continuous,Assessed_n_weighted_MAE,12.932639748624155
+study,Random forest,binary,ROC_AUC,0.8112644201825607
+study,Random forest,binary,PR_AUC,0.7030754365824855
+study,Random forest,binary,Brier,0.1703374393567742
+study,Random forest,binary,Log_Loss,0.5183191711126023
+study,Random forest,binary,F1_at_0.5,0.5973482205163991
+study,Random forest,binary,Balanced_Accuracy_at_0.5,0.7009135268137205
+study,Random forest,binary,Calibration_in_the_large,-0.47615918655183925
+study,Random forest,binary,Calibration_intercept_joint,-0.3973084674356487
+study,Random forest,binary,Calibration_slope,1.4728188629408174
+study,Random forest,binary,Assessed_n_weighted_Brier,0.16559130380067358
+study,TabPFN-3,continuous,MAE,11.657203373610779
+study,TabPFN-3,continuous,RMSE,19.47472691497542
+study,TabPFN-3,continuous,R2,0.31284850163782607
+study,TabPFN-3,continuous,Mean_bias_predicted_minus_observed,0.05420248813525667
+study,TabPFN-3,continuous,Spearman,0.5261866910622623
+study,TabPFN-3,continuous,Observed_on_predicted_intercept,2.9452757136219536
+study,TabPFN-3,continuous,Observed_on_predicted_slope,0.7835959910418954
+study,TabPFN-3,continuous,Assessed_n_weighted_MAE,11.080230438442639
+study,TabPFN-3,binary,ROC_AUC,0.7927339997215848
+study,TabPFN-3,binary,PR_AUC,0.6658643311727425
+study,TabPFN-3,binary,Brier,0.1680070779382113
+study,TabPFN-3,binary,Log_Loss,0.5226150231126326
+study,TabPFN-3,binary,F1_at_0.5,0.5811836115326252
+study,TabPFN-3,binary,Balanced_Accuracy_at_0.5,0.6937746212018492
+study,TabPFN-3,binary,Calibration_in_the_large,-0.027683996287717793
+study,TabPFN-3,binary,Calibration_intercept_joint,-0.19216850269282232
+study,TabPFN-3,binary,Calibration_slope,0.6981174443353342
+study,TabPFN-3,binary,Assessed_n_weighted_Brier,0.1577396722276274

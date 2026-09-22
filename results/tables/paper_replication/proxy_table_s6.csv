@@ -1,0 +1,9 @@
+analysis_type,model_order,variable,df,deviance,residual_df,residual_deviance,p_value,n_complete,formula_through_term
+public_data_proxy,1,T cell Epitope Content,1,31.901658359542353,1441,1757.4862282360352,1.6217863572001187e-08,1443,high_ada ~ tcell
+public_data_proxy,2,Disease Indication,4,88.23194923402912,1437,1669.2542790020061,3.126122582367848e-18,1443,high_ada ~ tcell + C(disease)
+public_data_proxy,3,Therapeutic Immune MOA Type,3,58.98921925492823,1434,1610.2650597470779,9.664152286185342e-13,1443,high_ada ~ tcell + C(disease) + C(moa)
+public_data_proxy,4,Comedication Immune MOA Type,2,0.11622229379645432,1432,1610.1488374532814,0.9435450695006653,1443,high_ada ~ tcell + C(disease) + C(moa) + C(comed)
+public_data_proxy,5,Dose Level,1,7.153515236910607,1431,1602.9953222163708,0.007481720444031147,1443,high_ada ~ tcell + C(disease) + C(moa) + C(comed) + dose
+public_data_proxy,6,Dose Interval,1,0.5591912599156785,1430,1602.4361309564551,0.45458627985515154,1443,high_ada ~ tcell + C(disease) + C(moa) + C(comed) + dose + dose_interval
+public_data_proxy,7,Year Trial was Completed,1,31.367017636543096,1429,1571.069113319912,2.1357843138133228e-08,1443,high_ada ~ tcell + C(disease) + C(moa) + C(comed) + dose + dose_interval + trial_year
+public_data_proxy,8,Route of Administration,3,19.919750020081665,1426,1551.1493632998304,0.00017636808203866621,1443,high_ada ~ tcell + C(disease) + C(moa) + C(comed) + dose + dose_interval + trial_year + C(route)

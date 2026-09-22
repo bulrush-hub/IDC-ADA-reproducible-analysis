@@ -1,0 +1,20 @@
+{
+  "rows": 2611,
+  "development_rows": 2237,
+  "test_rows": 374,
+  "development_study_groups": 582,
+  "development_molecules": 107,
+  "study_molecule_components": 73,
+  "largest_component_rows": 1076,
+  "largest_component_study_groups": 232,
+  "largest_component_molecules": 29,
+  "test_molecules": 56,
+  "test_molecules_seen_in_development": 53,
+  "test_molecules_unseen_in_development": 3,
+  "unseen_test_molecule_names": [
+    "Cabiralizumab",
+    "Imalumab",
+    "Vobarilizumab"
+  ],
+  "test_outcome_used": false
+}

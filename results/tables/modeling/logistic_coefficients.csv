@@ -1,0 +1,117 @@
+outcome,transformed_feature,coefficient,absolute_coefficient,raw_feature,interpretation_unit
+binary,cat__target_group_Immune checkpoint/co-stimulation,1.4037578993839963,1.4037578993839963,target_group,log-odds per standardized/encoded feature
+binary,cat__moa_group_Receptor agonism,1.3142587480323584,1.3142587480323584,moa_group,log-odds per standardized/encoded feature
+binary,cat__species_Chimeric,1.1264050966036283,1.1264050966036283,species,log-odds per standardized/encoded feature
+binary,cat__target_group_Neurotrophic/neuropeptide pathway,-1.0161273614068864,1.0161273614068864,target_group,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_Not applicable,0.9967737648841798,0.9967737648841798,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Neurological,0.91158739402452,0.91158739402452,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__route_clean_Subcutaneous,0.898345477192358,0.898345477192358,route_clean,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Renal and urogenital,-0.7775768835092118,0.7775768835092118,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__species_Human,-0.673717336310959,0.673717336310959,species,log-odds per standardized/encoded feature
+binary,cat__target_group_Complement/coagulation/protease,-0.6199179231546509,0.6199179231546509,target_group,log-odds per standardized/encoded feature
+binary,cat__target_group_Cytokine/immune mediator,0.5897661645300404,0.5897661645300404,target_group,log-odds per standardized/encoded feature
+binary,num__max_chain_length,0.5819187492081574,0.5819187492081574,max_chain_length,log-odds per standardized/encoded feature
+binary,cat__route_clean_Intravenous,-0.5800456465990802,0.5800456465990802,route_clean,log-odds per standardized/encoded feature
+binary,cat__ada_assay_platform_Multiple platforms,0.5534634489967412,0.5534634489967412,ada_assay_platform,log-odds per standardized/encoded feature
+binary,cat__target_group_Pathogen/toxin antigen,-0.5131684705168823,0.5131684705168823,target_group,log-odds per standardized/encoded feature
+binary,cat__moa_group_Pathogen/toxin neutralization,-0.5131684705168823,0.5131684705168823,moa_group,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Metabolic and endocrine disorders,0.505939552297701,0.505939552297701,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_Human IgG1,-0.475138558788509,0.475138558788509,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__sequence_verified_Yes,0.4481077931337947,0.4481077931337947,sequence_verified,log-odds per standardized/encoded feature
+binary,cat__protein_modality_Monoclonal antibody,-0.4181306407716762,0.4181306407716762,protein_modality,log-odds per standardized/encoded feature
+binary,cat__target_group_Growth factor/oncogenic pathway,-0.4025671136715044,0.4025671136715044,target_group,log-odds per standardized/encoded feature
+binary,cat__trial_blinding_Missing,0.39934302418234036,0.39934302418234036,trial_blinding,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_scFv,0.39420166361173087,0.39420166361173087,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__target_group_Adhesion/trafficking,0.39102658314181543,0.39102658314181543,target_group,log-odds per standardized/encoded feature
+binary,cat__moa_group_Adhesion/trafficking blockade,0.39102658314181543,0.39102658314181543,moa_group,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Unspecified,0.3891708840460142,0.3891708840460142,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__moa_group_Receptor blockade/antagonism,-0.3798701772830866,0.3798701772830866,moa_group,log-odds per standardized/encoded feature
+binary,cat__light_chain_clean_Not applicable,0.37928928917742594,0.37928928917742594,light_chain_clean,log-odds per standardized/encoded feature
+binary,cat__randomized_or_not_Not Randomized,-0.3781045934285349,0.3781045934285349,randomized_or_not,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_Human IgG4,-0.37783641128561973,0.37783641128561973,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__randomized_or_not_Randomized,0.36709814457006956,0.36709814457006956,randomized_or_not,log-odds per standardized/encoded feature
+binary,cat__therapeutic_comparator_Active controls,0.36640443442008686,0.36640443442008686,therapeutic_comparator,log-odds per standardized/encoded feature
+binary,cat__sequence_verified_Missing,-0.36495731225981665,0.36495731225981665,sequence_verified,log-odds per standardized/encoded feature
+binary,cat__protein_modality_Fc-Fusion,-0.35739430100380354,0.35739430100380354,protein_modality,log-odds per standardized/encoded feature
+binary,cat__trial_blinding_Open Label,-0.3531506509741944,0.3531506509741944,trial_blinding,log-odds per standardized/encoded feature
+binary,num__log_dose_mg_extracted,-0.33813729236972734,0.33813729236972734,log_dose_mg_extracted,log-odds per standardized/encoded feature
+binary,cat__therapeutic_comparator_Placebo/Sham,-0.3319310214536023,0.3319310214536023,therapeutic_comparator,log-odds per standardized/encoded feature
+binary,cat__route_clean_Intramuscular,-0.32871382584011505,0.32871382584011505,route_clean,log-odds per standardized/encoded feature
+binary,cat__trial_blinding_Single,0.3227311201113199,0.3227311201113199,trial_blinding,log-odds per standardized/encoded feature
+binary,cat__protein_modality_infrequent_sklearn,0.31736169772024625,0.31736169772024625,protein_modality,log-odds per standardized/encoded feature
+binary,cat__species_Humanized,-0.304760576157334,0.304760576157334,species,log-odds per standardized/encoded feature
+binary,cat__light_chain_clean_Lambda,-0.2793874941846219,0.2793874941846219,light_chain_clean,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Non-inflammatory respiratory diseases,-0.2667473395719096,0.2667473395719096,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__moa_group_Enzyme inhibition,-0.2586590519595771,0.2586590519595771,moa_group,log-odds per standardized/encoded feature
+binary,cat__ada_assay_platform_ECL/MSD,-0.2566083940523286,0.2566083940523286,ada_assay_platform,log-odds per standardized/encoded feature
+binary,num__log_total_sequence_length,-0.2551462646338607,0.2551462646338607,log_total_sequence_length,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Cancer and neoplasms,-0.2444334662314987,0.2444334662314987,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__target_group_Cytokine receptor,0.24388626797334037,0.24388626797334037,target_group,log-odds per standardized/encoded feature
+binary,cat__protein_modality_Immunotoxin,0.24232619043070106,0.24232619043070106,protein_modality,log-odds per standardized/encoded feature
+binary,cat__labelled_as_biosimilar_Yes,0.23817861263629386,0.23817861263629386,labelled_as_biosimilar,log-odds per standardized/encoded feature
+binary,num__log_assessment_days,0.23038122202035277,0.23038122202035277,log_assessment_days,log-odds per standardized/encoded feature
+binary,cat__trial_blinding_Triple,-0.22839779628771228,0.22839779628771228,trial_blinding,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Non-inflammatory skin diseases,-0.22664188827516696,0.22664188827516696,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Blood disorders,-0.22520688346682008,0.22520688346682008,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__target_group_Metabolic/lipid regulator,0.22324916157673297,0.22324916157673297,target_group,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Cardiovascular,0.22324916157673297,0.22324916157673297,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__conjugate_modification_clean_Not applicable,0.21916526271814168,0.21916526271814168,conjugate_modification_clean,log-odds per standardized/encoded feature
+binary,cat__moa_group_Complement inhibition,-0.21874686747708363,0.21874686747708363,moa_group,log-odds per standardized/encoded feature
+binary,num__ada_assay_sensitivity_missing,-0.21094383374904715,0.21094383374904715,ada_assay_sensitivity_missing,log-odds per standardized/encoded feature
+binary,cat__moa_group_Immune-cell targeting/modulation,-0.2104166234357325,0.2104166234357325,moa_group,log-odds per standardized/encoded feature
+binary,num__ada_assay_missing,-0.20363044789871876,0.20363044789871876,ada_assay_missing,log-odds per standardized/encoded feature
+binary,cat__ada_assay_platform_Other ligand-binding assay,0.20280021514824015,0.20280021514824015,ada_assay_platform,log-odds per standardized/encoded feature
+binary,cat__ada_assay_platform_Platform unclear,-0.1997250811039993,0.1997250811039993,ada_assay_platform,log-odds per standardized/encoded feature
+binary,cat__protein_modality_Enzyme,0.19899816480536828,0.19899816480536828,protein_modality,log-odds per standardized/encoded feature
+binary,num__sequence_available,-0.19655619986006587,0.19655619986006587,sequence_available,log-odds per standardized/encoded feature
+binary,cat__target_group_Multi-target/composite,-0.19257250816189628,0.19257250816189628,target_group,log-odds per standardized/encoded feature
+binary,cat__conjugate_modification_clean_PEG conjugate,-0.18145968325958678,0.18145968325958678,conjugate_modification_clean,log-odds per standardized/encoded feature
+binary,cat__labelled_as_biosimilar_No,-0.1693570299458275,0.1693570299458275,labelled_as_biosimilar,log-odds per standardized/encoded feature
+binary,cat__ada_assay_platform_ELISA,-0.1635871296709324,0.1635871296709324,ada_assay_platform,log-odds per standardized/encoded feature
+binary,num__n_sequence_chains,0.16353575305802873,0.16353575305802873,n_sequence_chains,log-odds per standardized/encoded feature
+binary,num__n_unique_sequences,0.16353575305802873,0.16353575305802873,n_unique_sequences,log-odds per standardized/encoded feature
+binary,cat__moa_group_Targeted payload delivery,0.15948404838419925,0.15948404838419925,moa_group,log-odds per standardized/encoded feature
+binary,cat__route_clean_Ophthalmic,0.15617260884315154,0.15617260884315154,route_clean,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_Human IgG2(CH1-hinge)/IgG4(CH2-CH3),-0.1491084123951085,0.1491084123951085,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__target_group_Bone/mineral metabolism,-0.14899346915485484,0.14899346915485484,target_group,log-odds per standardized/encoded feature
+binary,cat__protein_modality_Antibody-drug conjugate,0.1482170269296786,0.1482170269296786,protein_modality,log-odds per standardized/encoded feature
+binary,cat__moa_group_T-cell engager,-0.1399721086159862,0.1399721086159862,moa_group,log-odds per standardized/encoded feature
+binary,cat__species_Mouse,-0.1399721086159862,0.1399721086159862,species,log-odds per standardized/encoded feature
+binary,cat__moa_group_Ligand neutralization,-0.13992515474802156,0.13992515474802156,moa_group,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_Human Fab (CH1 IgG1),-0.1302507686473188,0.1302507686473188,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_Human IgG2,-0.12018123960691293,0.12018123960691293,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__target_group_Extracellular matrix/drug delivery,0.11969382251593261,0.11969382251593261,target_group,log-odds per standardized/encoded feature
+binary,cat__moa_group_Tissue dispersion/drug delivery,0.11969382251593261,0.11969382251593261,moa_group,log-odds per standardized/encoded feature
+binary,cat__protein_modality_IgG-like Bispecific,-0.1135673134087656,0.1135673134087656,protein_modality,log-odds per standardized/encoded feature
+binary,cat__target_group_Immune-cell surface antigen,-0.11335230673106766,0.11335230673106766,target_group,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Infectious diseases,-0.10873995049425902,0.10873995049425902,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__conjugate_modification_clean_Unconjugated,0.09680225310184717,0.09680225310184717,conjugate_modification_clean,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Musculoskeletal,-0.09158921872078354,0.09158921872078354,disease_category_clean,log-odds per standardized/encoded feature
+binary,num__dose_mg_missing,0.09033595358368374,0.09033595358368374,dose_mg_missing,log-odds per standardized/encoded feature
+binary,cat__moa_group_Immune checkpoint blockade,0.08949915135163687,0.08949915135163687,moa_group,log-odds per standardized/encoded feature
+binary,num__comedication_missing,0.07995177598849829,0.07995177598849829,comedication_missing,log-odds per standardized/encoded feature
+binary,num__has_coadministered_drugs,-0.07995177598849716,0.07995177598849716,has_coadministered_drugs,log-odds per standardized/encoded feature
+binary,cat__randomized_or_not_Missing,0.07982803154893024,0.07982803154893024,randomized_or_not,log-odds per standardized/encoded feature
+binary,cat__target_group_Metabolic substrate,0.07930434228943588,0.07930434228943588,target_group,log-odds per standardized/encoded feature
+binary,cat__route_clean_infrequent_sklearn,-0.07693703090584643,0.07693703090584643,route_clean,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Healthy Volunteer,-0.07320712212902156,0.07320712212902156,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__moa_group_infrequent_sklearn,-0.0725472527898313,0.0725472527898313,moa_group,log-odds per standardized/encoded feature
+binary,cat__moa_group_Enzyme replacement/substrate degradation,-0.0718350639092761,0.0718350639092761,moa_group,log-odds per standardized/encoded feature
+binary,cat__trial_blinding_Double,-0.07170411434128621,0.07170411434128621,trial_blinding,log-odds per standardized/encoded feature
+binary,cat__antibody_backbone_clean_infrequent_sklearn,-0.06963845508197512,0.06963845508197512,antibody_backbone_clean,log-odds per standardized/encoded feature
+binary,cat__conjugate_modification_clean_infrequent_sklearn,-0.06963845508197512,0.06963845508197512,conjugate_modification_clean,log-odds per standardized/encoded feature
+binary,cat__ada_assay_platform_Not reported,-0.06813374974558747,0.06813374974558747,ada_assay_platform,log-odds per standardized/encoded feature
+binary,cat__therapeutic_comparator_Parallel Assignment,0.061880902342415826,0.061880902342415826,therapeutic_comparator,log-odds per standardized/encoded feature
+binary,cat__species_Bacterial,0.060866507171113755,0.060866507171113755,species,log-odds per standardized/encoded feature
+binary,cat__light_chain_clean_Kappa,-0.057485007509557054,0.057485007509557054,light_chain_clean,log-odds per standardized/encoded feature
+binary,cat__disease_category_clean_Inflammation and autoimmunity,0.053017343144171405,0.053017343144171405,disease_category_clean,log-odds per standardized/encoded feature
+binary,cat__protein_modality_Monoclonal Antibody,0.051010757988717195,0.051010757988717195,protein_modality,log-odds per standardized/encoded feature
+binary,cat__prospective_or_retrospective_Missing,0.04598042459986592,0.04598042459986592,prospective_or_retrospective,log-odds per standardized/encoded feature
+binary,num__log_n_ada_assessed,0.0300494898281194,0.0300494898281194,log_n_ada_assessed,log-odds per standardized/encoded feature
+binary,cat__therapeutic_comparator_Missing,-0.02753273261843481,0.02753273261843481,therapeutic_comparator,log-odds per standardized/encoded feature
+binary,cat__light_chain_clean_infrequent_sklearn,0.026404795207220347,0.026404795207220347,light_chain_clean,log-odds per standardized/encoded feature
+binary,cat__target_group_infrequent_sklearn,0.024836494076917737,0.024836494076917737,target_group,log-odds per standardized/encoded feature
+binary,cat__prospective_or_retrospective_Prospective,0.02284115809060047,0.02284115809060047,prospective_or_retrospective,log-odds per standardized/encoded feature
+binary,cat__sequence_verified_infrequent_sklearn,-0.014328898183510583,0.014328898183510583,sequence_verified,log-odds per standardized/encoded feature
+binary,cat__conjugate_modification_clean_Drug conjugate,0.003952205212039648,0.003952205212039648,conjugate_modification_clean,log-odds per standardized/encoded feature
+binary,cat__ada_assay_platform_infrequent_sklearn,0.0006122731183353567,0.0006122731183353567,ada_assay_platform,log-odds per standardized/encoded feature

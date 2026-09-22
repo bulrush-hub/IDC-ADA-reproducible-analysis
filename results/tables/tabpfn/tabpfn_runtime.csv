@@ -1,0 +1,5 @@
+outcome,phase,seconds
+continuous,fit,37.90894979999575
+continuous,test_predict,5.549071800007368
+binary,fit,31.93338680001034
+binary,test_predict,4.916678800000227

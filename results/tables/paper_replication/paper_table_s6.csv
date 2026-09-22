@@ -1,0 +1,9 @@
+display_rank,model_order,variable,df,deviance,residual_df,residual_deviance,p_value
+1,3,Therapeutic Immune MOA Type,3,111.4186,1207,1378.433,5.43e-24
+2,2,Disease Indication,4,48.03786,1210,1489.851,9.27e-10
+3,1,T cell Epitope Content,1,44.47694,1214,1537.889,2.57e-11
+4,6,Dose Interval,1,17.13003,1203,1351.075,3.49e-05
+5,8,Route of Administration,3,7.050262,1199,1339.265,0.070313
+6,4,Comedication Immune MOA Type,2,5.154917,1205,1373.278,0.075967
+7,5,Dose Level,1,5.072558,1204,1368.205,0.024307
+8,7,Year Trial was Completed,1,4.759851,1202,1346.315,0.029131

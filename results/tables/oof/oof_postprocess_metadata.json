@@ -1,0 +1,12 @@
+{
+  "rows_per_scheme": 2237,
+  "schemes": [
+    "molecule",
+    "study"
+  ],
+  "overall_metric_rows": 72,
+  "bootstrap_repeats": 2000,
+  "thresholds_per_model": 16,
+  "subgroup_rows": 82,
+  "sealed_test_outcome_used": false
+}

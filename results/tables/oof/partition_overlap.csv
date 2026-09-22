@@ -1,0 +1,7 @@
+dimension,partition_left,partition_right,left_unique,right_unique,overlap_unique,overlap_examples
+model_split_group,train,validation,484,98,0,
+model_split_group,train,test,484,98,0,
+model_split_group,validation,test,98,98,0,
+molecule_inn_name,train,validation,101,51,45,Adalimumab | Atezolizumab | Avelumab | Benralizumab | Bevacizumab | Bococizumab | Brentuximab vedotin | Canakinumab | Daclizumab | Daratumumab | Denosumab | Dupilumab
+molecule_inn_name,train,test,101,56,53,Adalimumab | Alemtuzumab | Alglucosidase alfa | Atezolizumab | Avelumab | Benralizumab | Bevacizumab | Bezlotoxumab | Blinatumomab | Bococizumab | Brentuximab vedotin | Brodalumab
+molecule_inn_name,validation,test,51,56,33,Adalimumab | Atezolizumab | Avelumab | Benralizumab | Bevacizumab | Bococizumab | Brentuximab vedotin | Canakinumab | Denosumab | Dupilumab | Durvalumab | Elotuzumab

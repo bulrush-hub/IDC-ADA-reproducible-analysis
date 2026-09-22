@@ -1,0 +1,9 @@
+paper_model_order,variable,df,conditional_deviance,p_value,full_model_residual_df,full_model_residual_deviance,n_complete,interpretation
+1,T cell Epitope Content,1,27.797627423588892,1.3469118681123928e-07,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.
+2,Disease Indication,4,8.828957866851624,0.06551983982477756,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.
+3,Therapeutic Immune MOA Type,3,21.230437486930896,9.428950350282496e-05,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.
+4,Comedication Immune MOA Type,2,0.5780618768822023,0.7489890324911372,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.
+5,Dose Level,1,3.8563714209485624,0.04955739663779431,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.
+6,Dose Interval,1,0.05360283260461074,0.816908631624305,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.
+7,Year Trial was Completed,1,19.233989417607063,1.1563608970863715e-05,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.
+8,Route of Administration,3,19.919750020081665,0.00017636808203866621,1426,1551.1493632998304,1443,Drop-one likelihood-ratio test on the fixed proxy cohort; order-independent but still proxy-based.

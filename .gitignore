@@ -1,0 +1,25 @@
+# Project-local environments and credentials
+.venv/
+.venv-tabpfn/
+.env
+
+# Python/Notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Node dependencies and operating-system files
+node_modules/
+.DS_Store
+Thumbs.db
+
+# TabPFN weights and transient outputs must be recreated locally
+work/
+outputs/
+*.ckpt
+*.partial.csv
+
+# Large audit/render intermediates are intentionally excluded
+*.inspect.ndjson
+*workbook_payload.json
+tmp/

@@ -1,0 +1,7 @@
+check,expected,observed,result,observed_min,observed_max
+All outer folds are molecule-disjoint,0,0,PASS,,
+Each row has one OOF prediction per repeat,10,,PASS,10.0,10.0
+Outer fold count,150,150,PASS,,
+Nested tuning selections,150,150,PASS,,
+"Prediction probabilities in [0,1]",True,True,PASS,,
+Prior dedup outputs untouched,True,True,PASS,,

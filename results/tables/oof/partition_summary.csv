@@ -1,0 +1,4 @@
+partition,rows,study_groups,molecules
+test,374,98,56
+train,1864,484,101
+validation,373,98,51

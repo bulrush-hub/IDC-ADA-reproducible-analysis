@@ -1,0 +1,4 @@
+scenario_id,scenario_label,complete_rows,unique_molecules,positive_rows,prevalence,minimum_rows_per_molecule,median_rows_per_molecule,maximum_rows_per_molecule,evaluation_unit
+all_public_rows_grouped,All public rows (grouped by molecule),1443,66,449,0.31115731115731116,1,10.5,147,clinical row; outer split grouped by molecule
+one_row_per_molecule,One row per molecule,66,66,13,0.19696969696969696,1,1.0,1,molecule
+one_row_per_molecule_disease_category,One row per molecule × disease category,78,66,13,0.16666666666666666,1,1.0,4,molecule-disease category; outer split grouped by molecule

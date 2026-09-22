@@ -1,0 +1,11 @@
+variable,candidate_rows,available_rows,missing_rows,missing_percent,proxy_field
+ADA binary outcome,2666,2666,0,0.0,high_ada
+T cell Epitope Content proxy,2666,2365,301,0.11290322580645161,sequence_length_proxy
+Disease Indication proxy,2666,2666,0,0.0,disease_indication_group_proxy
+Therapeutic Immune MOA Type proxy,2666,2666,0,0.0,therapeutic_moa_type_proxy
+Comedication Immune MOA Type proxy,2666,2666,0,0.0,comedication_moa_type_proxy
+Dose Level proxy,2666,2464,202,0.07576894223555888,dose_level_proxy
+Dose Interval proxy,2666,1687,979,0.36721680420105024,dose_interval_days_proxy
+Year Trial was Completed,2666,2651,15,0.005626406601650412,trial_year_completed
+Route of Administration proxy,2666,2666,0,0.0,route_group_proxy
+Any required proxy-model field,2666,1443,1223,0.4587396849212303,complete-case intersection

@@ -1,0 +1,314 @@
+[
+  {
+    "variable": "THERAPEUTIC TABLE",
+    "definition": null
+  },
+  {
+    "variable": "INN Name",
+    "definition": "Identifier for the molecule: International nonproprietary name of the therapeutic according to the WHO (https://www.who.int/teams/health-product-and-policy-standards/inn/inn-bio)"
+  },
+  {
+    "variable": "Therapeutic ID",
+    "definition": "Primary Key- IDC unique identifier for the specific drug (thus associated to a unique trade name)"
+  },
+  {
+    "variable": "Trade name",
+    "definition": "Commercial name for the drug product (if approved) or alternative name give to an unapproved drug"
+  },
+  {
+    "variable": "Manufacturer",
+    "definition": "Organization(s) who market(ed) the therapeutic"
+  },
+  {
+    "variable": "Labelled as Biosimilar?",
+    "definition": "Whether the therapeutic is a biosimilar of a parental molecule"
+  },
+  {
+    "variable": "Progeny of",
+    "definition": "If the therapeutic is a biosimilar or reformulation of a parental therapeutic, that parental therapeutic ID will be listed here"
+  },
+  {
+    "variable": "Protein Description",
+    "definition": "Free-form description of the therapeutic taken from the reference database or manufacturer"
+  },
+  {
+    "variable": "Protein Modality",
+    "definition": "Controlled language category describing the type of biotherapeutic. Note an immunotoxin here is classified as a binder (antibody, cytokine, etc.) fused to a toxin (ex. Diptheria toxin)"
+  },
+  {
+    "variable": "Species",
+    "definition": "Controlled language describing the most foreign species by which the sequence was derived. For example, an immunotoxin with a fully human ScFv fused to a bacterial toxin would be considered bacterial."
+  },
+  {
+    "variable": "Antibody Backbone",
+    "definition": "Controlled language describing the specific, isotype, etc. for the antibody constant regions incorproated in the therpaeutic"
+  },
+  {
+    "variable": "Light Chain",
+    "definition": "Controlled language for light chain containing therapeutics only, lamnda or kappa"
+  },
+  {
+    "variable": "Fc Modifications",
+    "definition": "Only relevant for Fc containing therapeutics: any noted modifications made the Fc (Note the reported sequence was not analyzed to determine if any Fc modifications were made or to variefy modifications)"
+  },
+  {
+    "variable": "Conjugate Modification",
+    "definition": "Controlled language describing if any conjugates were added to the drug post expression"
+  },
+  {
+    "variable": "Conjugate Description",
+    "definition": "Free from description of the conjugate modifying the drug, if any were made"
+  },
+  {
+    "variable": "Expression System",
+    "definition": "Host organism in which the genetic constructs designed to produce the protein were incorporated into"
+  },
+  {
+    "variable": "Sequence IDC database Identifier(s)",
+    "definition": "IDC unique identifier(s) for the amino acid sequence of the therapeutic that are listed in the Sequence table"
+  },
+  {
+    "variable": "Sequence Verified?",
+    "definition": "A sequence is considered verified if it was found in at least two independent databases"
+  },
+  {
+    "variable": "Target(s) (Protein/Molecule)",
+    "definition": "The name of the target that the therapeutic binds to or targets to carry out its therapeutic effect"
+  },
+  {
+    "variable": "Mechanism of Action",
+    "definition": "Free-form description of the therapeutics mechanism of action"
+  },
+  {
+    "variable": "Furthest Development Stage Reached",
+    "definition": "Controlled language indicating the further clinical stage of evaluation that the therapeutic reached to date"
+  },
+  {
+    "variable": "FDA approved",
+    "definition": "Whether the therapeutic was ever approved by the FDA"
+  },
+  {
+    "variable": "First FDA approval",
+    "definition": "Date of FDA approval for the oldest indication of the therapeutic"
+  },
+  {
+    "variable": "EU approval ",
+    "definition": "Whether the therapeutic was ever approved by the EU"
+  },
+  {
+    "variable": "First EU approval ",
+    "definition": "Date of EU approval for the oldest indication of the therapeutic"
+  },
+  {
+    "variable": "SEQUENCE TABLE",
+    "definition": null
+  },
+  {
+    "variable": "Sequence ID",
+    "definition": "Primary Key- IDC unique identifier for the protein chain sequence for the molecule"
+  },
+  {
+    "variable": "Parental Molecule Therapeutic ID",
+    "definition": "Foreign Key- IDC unique identifier for the drug representing the original parental molecule (or just the singular drug if no biosimilars or alternative formulations are in the dataset)"
+  },
+  {
+    "variable": "INN Name",
+    "definition": "International nonproprietary name of the therapeutic according to the WHO (https://www.who.int/teams/health-product-and-policy-standards/inn/inn-bio)"
+  },
+  {
+    "variable": "Chain Multiplicity",
+    "definition": "Number of times the chain is represented in the protein complex"
+  },
+  {
+    "variable": "Chain Identifier",
+    "definition": "Identifier for the individual chain within the protein complex"
+  },
+  {
+    "variable": "Chain Descriptor",
+    "definition": "Controlled language descriptor that indicated if the chain is a heavy chain, light chain or domain (and if so what number within the protein complex)"
+  },
+  {
+    "variable": "Amino Acid Sequence",
+    "definition": "Amino acid sequence for the indicated chain"
+  },
+  {
+    "variable": "Sequence Source",
+    "definition": "Reference link to source(s) where amino acid sequence was found"
+  },
+  {
+    "variable": "CLINICAL TRIAL TABLE",
+    "definition": null
+  },
+  {
+    "variable": "Manually Audited",
+    "definition": "Indicates whether the row has been manually reviewed after its entry into the dataset to ensure its accurarcy. Manually reviewed rows could be considered as higher quality."
+  },
+  {
+    "variable": "Trial ID",
+    "definition": "Primary Key- IDC unique identifier for the individual clinical trial"
+  },
+  {
+    "variable": "Trial External Source",
+    "definition": "Controlled language describing the source type where the clinical trial data was acquired from"
+  },
+  {
+    "variable": "External Source Identifier",
+    "definition": "Unique identifier for the specific source of the clinical trial data"
+  },
+  {
+    "variable": "Molecule Assessed for ADA INN Name",
+    "definition": "The INN name of the therapeutic that is being assess for ADA in said row"
+  },
+  {
+    "variable": "Therapeutic Assessed for ADA Trade name",
+    "definition": "The trade name of the drug that is being assess for ADA in said row"
+  },
+  {
+    "variable": "Therapeutic Assessed for ADA ID",
+    "definition": "Foreign Key- The therapeutic ID of the therapeutic that is being assess for ADA in said row"
+  },
+  {
+    "variable": "IDC Row identifier",
+    "definition": "Primary Key- Unique identifier generated based on the clinical trial ID, the arm ID (e.g. A1 = Arm 1) and the datapoint ID for that arm (e.g. 001 = datapoint 1 for the indicated arm)."
+  },
+  {
+    "variable": "Immunogenicity testing",
+    "definition": "Indicates what the specific target was for the ADA testing (ex. For a bi-specific you could be evaluating ADA against arm 1 or arm 2, or for a PEGylated molecule you could evaluate ADA against the molecule or the PEG)"
+  },
+  {
+    "variable": "Therapeutic Exposure Status",
+    "definition": "Indicates if the cohort has been exposed to the drug or not (Therapeutic Naïve vs Therapeutic Exposed). Pre-dose measures or placebo control groups would be labeled as Therapeutic Naïve."
+  },
+  {
+    "variable": "Trial Arm Description",
+    "definition": "Free-form description of the assigned intervention for the specific arm in the trial"
+  },
+  {
+    "variable": "Trial Arm Timepoint Description",
+    "definition": "Free-form description of the timepoint within the trial that the data is being captured"
+  },
+  {
+    "variable": "Dosing Description",
+    "definition": "Free-form description of the dosing specifications for the therapeutic of interest and other drugs for the cohort. This could include dosing level and frequency."
+  },
+  {
+    "variable": "Therapeutic Dosing Schedule Description",
+    "definition": "Free-form description of the dosing schedule for the therapeutic which could include the dates or cadence of dosing and the number and length of treatment periods."
+  },
+  {
+    "variable": "Disease Indication Category",
+    "definition": "Controlled language indicating the broad category the cohorts disease indication falls within"
+  },
+  {
+    "variable": "Disease Indication Description",
+    "definition": "Free-form description iof the disease indication(s) being evaluated"
+  },
+  {
+    "variable": "Co-administered drugs",
+    "definition": "Free-form list of other drugs administered in the trial arm. May include other biologics with the Protein IDC Identifiers indicator or small molecule drugs."
+  },
+  {
+    "variable": "Patient Population",
+    "definition": "Free-form description of the demographics of the patients evaluated in either the cohort or trial"
+  },
+  {
+    "variable": "Trial Start Date",
+    "definition": "Date the clinical trial was started. This could be left blank if it was not reported in the source document."
+  },
+  {
+    "variable": "Trial End Date",
+    "definition": "Date the clinical trial ended. This could be left blank if it was not reported in the source document."
+  },
+  {
+    "variable": "Therapeutic Route of Administration",
+    "definition": "Controlled language indicating the route of adminstration for the therapeutic within the cohort"
+  },
+  {
+    "variable": "Immunogenicity Assessment Reported Up To (Days)",
+    "definition": "Number of days an ADA measurement was taken post-dose of a therapeutic. Sometimes this is reported in source documents as the maximum date ADA was assessed at, thus could represent multiple earlier dates as well."
+  },
+  {
+    "variable": "Number of Patients analyzed for ADA",
+    "definition": "Number of patients evaluated for ADA for the given cohort at the given timepoint"
+  },
+  {
+    "variable": "Number of ADA+ patients",
+    "definition": "Number of patients testing postive for ADA above the threshold specificied by the parameters of the ADA assay"
+  },
+  {
+    "variable": "Frequency of ADA+ patients",
+    "definition": "Number of patients testing postive for ADA divided by the total number of patients analyzed for ADA"
+  },
+  {
+    "variable": "ADA detection assay used",
+    "definition": "If reported, information around the type of ADA assay used. In some entries this could also contain information about the assay sensitivity."
+  },
+  {
+    "variable": "ADA assay sensitivity or calculation",
+    "definition": "If reported, information around the ADA assay sensitivity and parameters by which a patient was determined to be ADA+ or ADA negative"
+  },
+  {
+    "variable": "Number of patients analyzed for ADA titers",
+    "definition": "Number of patients evaluated for ADA titers for the given cohort at the given timepoint"
+  },
+  {
+    "variable": "Average ADA titers",
+    "definition": "Reported average ADA titers amongst those evaluated"
+  },
+  {
+    "variable": "nADAs detected",
+    "definition": "Indicates whether any neutralizing ADAs were reported. Sometimes the presence or absence of nADAs are the only measures reported."
+  },
+  {
+    "variable": "Number of patients analyzed for nADAs titers",
+    "definition": "Number of patients evaluated for neturalizing ADA titers for the given cohort at the given timepoint"
+  },
+  {
+    "variable": "Average nADA's titers",
+    "definition": "Reported average neturalizing ADA titers amongst those evaluated"
+  },
+  {
+    "variable": "Number of patients analyzed for nADA",
+    "definition": "Number of patients evaluated for neturalizing ADA for the given cohort at the given timepoint"
+  },
+  {
+    "variable": "Number of patients with nADAs",
+    "definition": "Number of patients testing postive for neutralizing ADA above the threshold specificied by the parameters of the assay"
+  },
+  {
+    "variable": "Frequency nADA+ patients reported",
+    "definition": "Number of patients testing postive for nADA divided by the total number of patients analyzed for nADA"
+  },
+  {
+    "variable": "Frequency of patients with hypersensitivity or injection site reactions",
+    "definition": "Reported frequency of patients reported to have severe hypersensitivity or injection site reactions. These may or may not be correlated with ADA positivity."
+  },
+  {
+    "variable": "ADA interpreted to impact PK",
+    "definition": "Reported conclusions whether ADA was correlated or implicated in the impact of Pharmacokinetics of the therapeutic."
+  },
+  {
+    "variable": "ADA interpreted to impact Efficacy",
+    "definition": "Reported conclusions whether ADA was correlated or implicated in the impact of efficacy of the therapeutic."
+  },
+  {
+    "variable": "Prospective or Retrospective",
+    "definition": "Indicating whether the trial was conducted as a prospective or retrospective study"
+  },
+  {
+    "variable": "Randomized or Not Randomized",
+    "definition": "Indicating whether the trial was randomized or not randomized in relation to the therapeutic being assessed for ADAs"
+  },
+  {
+    "variable": "Trial Blinding Type",
+    "definition": "Whether the trial was blinded"
+  },
+  {
+    "variable": "Therapeutic Comparator",
+    "definition": "Indicating what type of comparator the therapeutic was assessed against (if any)"
+  },
+  {
+    "variable": "Trial Primary Endpoint",
+    "definition": "Free-form text indicating what the primary endpoints of the trial were"
+  }
+]

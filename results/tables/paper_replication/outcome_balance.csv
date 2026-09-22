@@ -1,0 +1,5 @@
+stage,outcome,rows,stage_rows,percent_of_stage
+Exposed + outcome candidate,Low ADA (<10%),1788,2666,0.6706676669167292
+Exposed + outcome candidate,High ADA (>=10%),878,2666,0.3293323330832708
+Complete public-data proxy model,Low ADA (<10%),994,1443,0.6888426888426888
+Complete public-data proxy model,High ADA (>=10%),449,1443,0.31115731115731116

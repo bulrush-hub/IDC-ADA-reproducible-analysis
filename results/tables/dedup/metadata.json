@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-08-08T23:10:49.856175+00:00",
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "output_directory": "C:\\Users\\BulrushMarry\\Documents\\Codex\\2026-08-02\\1-bevacizumab-cd22-target-mapping-audit\\outputs\\paper_replication_dedup_scenarios",
+  "original_results_untouched": true,
+  "source_candidate_rows": 2666,
+  "scenario_1_rows": 110,
+  "scenario_1_model_n": 66,
+  "scenario_2_rows": 146,
+  "scenario_2_model_n": 78,
+  "baseline_model_n": 1443,
+  "selection_rule_version": "dedup_representative_v1",
+  "source_all_tables": "paper_replication/data/raw/User_IDC_DB_V1_All_Tables.xlsx"
+}

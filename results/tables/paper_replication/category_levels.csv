@@ -1,0 +1,17 @@
+variable,level,candidate_rows,proxy_complete_case_rows
+Therapeutic Immune MOA Type,Anti-inflammation,808,466
+Therapeutic Immune MOA Type,Other,941,482
+Therapeutic Immune MOA Type,T/B cell activator,561,316
+Therapeutic Immune MOA Type,T/B cell depletor,356,179
+Disease Indication,Hematological malignancy,411,183
+Disease Indication,Infectious diseases,34,2
+Disease Indication,Inflammation and autoimmunity,992,630
+Disease Indication,Other,585,202
+Disease Indication,Solid tumor,644,426
+Comedication Immune MOA Type,Immune suppressors,303,164
+Comedication Immune MOA Type,No co-medications,1792,924
+Comedication Immune MOA Type,Non-immune suppressors,571,355
+Route of Administration,Intravenous,1611,925
+Route of Administration,Ophthalmic,42,20
+Route of Administration,Other,28,2
+Route of Administration,Subcutaneous,985,496

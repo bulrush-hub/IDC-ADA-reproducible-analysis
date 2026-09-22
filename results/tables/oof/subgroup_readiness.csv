@@ -1,0 +1,42 @@
+dimension,level,rows,study_groups,molecules,positive_rows,negative_rows,high_ada_prevalence,ada_mean,ada_median,readiness
+ada_assay_platform,Not reported,1094,284,76,285,809,0.26051188299817185,10.124539762270457,1.0,Ready
+ada_assay_platform,Platform unclear,540,162,52,228,312,0.4222222222222222,18.004760618631483,6.7,Ready
+ada_assay_platform,ELISA,247,56,24,66,181,0.26720647773279355,8.555661573331985,0.9,Ready
+ada_assay_platform,ECL/MSD,241,46,29,97,144,0.4024896265560166,23.166883900655602,4.651162791,Ready
+ada_assay_platform,Other ligand-binding assay,57,19,17,27,30,0.47368421052631576,15.989061058526316,9.090909091,Descriptive only
+ada_assay_platform,Multiple platforms,46,13,7,30,16,0.6521739130434783,29.346397071956527,26.700000000000003,Descriptive only
+ada_assay_platform,Cell-based,5,1,1,2,3,0.4,6.68,0.0,Descriptive only
+ada_assay_platform,SPR/Biacore,4,4,1,0,4,0.0,0.0,0.0,Descriptive only
+ada_assay_platform,Radioimmunoassay,3,2,1,3,0,1.0,31.599999999999998,38.0,Descriptive only
+assay_sensitivity_status,Not reported,1651,433,98,500,1151,0.30284675953967294,13.360368348928453,2.4,Ready
+assay_sensitivity_status,Reported,586,157,53,238,348,0.4061433447098976,15.062845160786688,5.577777778,Ready
+assessed_sample_size_band,<50,1102,284,94,304,798,0.27586206896551724,10.676739282641561,0.0,Ready
+assessed_sample_size_band,50–199,707,256,73,239,468,0.33804809052333806,13.949162693398645,5.0,Ready
+assessed_sample_size_band,200–499,345,126,44,173,172,0.5014492753623189,24.220741622675362,10.0,Ready
+assessed_sample_size_band,≥500,73,35,22,18,55,0.2465753424657534,10.428970339384081,1.9,Ready
+assessed_sample_size_band,Missing,10,3,3,4,6,0.4,13.95,7.0,Descriptive only
+assessment_duration_band,>365 days,984,293,80,327,657,0.3323170731707317,12.646645488795732,3.7487341770000002,Ready
+assessment_duration_band,85–180 days,479,168,60,147,332,0.3068893528183716,13.908717593308644,1.7,Ready
+assessment_duration_band,181–365 days,453,173,64,185,268,0.4083885209713024,16.298432064421718,5.9,Ready
+assessment_duration_band,29–84 days,186,80,38,47,139,0.25268817204301075,14.829953495784949,0.5,Ready
+assessment_duration_band,≤28 days,135,45,29,32,103,0.23703703703703705,12.123403294318518,0.0,Ready
+disease_category_clean,Cancer and neoplasms,862,227,48,216,646,0.2505800464037123,8.327156989005845,0.6030303029999999,Ready
+disease_category_clean,Inflammation and autoimmunity,846,206,29,332,514,0.39243498817966904,16.157953494273052,5.55,Ready
+disease_category_clean,Neurological,144,43,11,52,92,0.3611111111111111,10.512910671263889,5.8,Ready
+disease_category_clean,Cardiovascular,73,25,3,30,43,0.410958904109589,23.26843857378082,5.882352941,Ready
+disease_category_clean,Healthy Volunteer,63,13,8,12,51,0.19047619047619047,11.984739626873015,0.0,Descriptive only
+disease_category_clean,Musculoskeletal,57,23,6,19,38,0.3333333333333333,9.436890475333334,0.0,Ready
+disease_category_clean,Metabolic and endocrine disorders,55,4,2,53,2,0.9636363636363636,78.66343434345455,92.6,Descriptive only
+disease_category_clean,Unspecified,42,12,9,18,24,0.42857142857142855,22.317633491404763,3.8,Descriptive only
+disease_category_clean,Renal and urogenital,29,4,2,0,29,0.0,0.0,0.0,Descriptive only
+disease_category_clean,Infectious diseases,27,6,6,2,25,0.07407407407407407,4.625095548475581,1.333333333333333,Descriptive only
+disease_category_clean,Non-inflammatory respiratory diseases,16,6,4,1,15,0.0625,1.675,0.0,Descriptive only
+disease_category_clean,Blood disorders,12,9,5,1,11,0.08333333333333333,4.646153845916667,0.1602564105,Descriptive only
+disease_category_clean,Non-inflammatory skin diseases,11,4,3,2,9,0.18181818181818182,5.5,4.3,Descriptive only
+labelled_as_biosimilar,No,2063,579,107,639,1424,0.3097430925836161,12.539385898464312,2.53164557,Ready
+labelled_as_biosimilar,Yes,174,43,9,99,75,0.5689655172413793,28.82782930902299,15.1,Ready
+route_clean,Intravenous,1357,345,80,365,992,0.26897568165070007,9.714246222941812,1.0,Ready
+route_clean,Subcutaneous,831,245,44,361,470,0.43441636582430804,20.56828531567028,7.0,Ready
+route_clean,Ophthalmic,26,6,4,12,14,0.46153846153846156,21.820792563038463,5.550000000000001,Descriptive only
+route_clean,Intramuscular,22,2,2,0,22,0.0,1.544435445856395,1.3245614035,Descriptive only
+route_clean,Subcutaneous or Intravenous,1,1,1,0,1,0.0,9.0,9.0,Descriptive only

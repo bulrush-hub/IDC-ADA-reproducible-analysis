@@ -1,0 +1,23 @@
+field,display_label,linked_model_features,missing_definition,field_role,include_in_figure,exclusion_reason,missing_n,missing_percent,available_n
+ada_assay_sensitivity,ADA assay sensitivity,ada_assay_sensitivity_missing,ada_assay_sensitivity_missing = 1,core model source field,True,,1967,75.33512064343164,644
+coadministered_drugs,Coadministration information,has_coadministered_drugs; comedication_missing,blank in source; cannot distinguish no co-medication from not reported,conditional/semantically ambiguous,False,Blank may encode a no-co-medication comparison group rather than missing data,1761,67.44542320949827,850
+ada_assay_platform,ADA assay platform,ada_assay_platform; ada_assay_missing,ada_assay_missing = 1 (Not reported),core model source field,True,,1290,49.40635771734968,1321
+sequence_derived_descriptors,Sequence-derived descriptors,sequence_available; log_total_sequence_length; n_sequence_chains; n_unique_sequences; max_chain_length,sequence_available = 0,core model source field,True,,587,22.481807736499427,2024
+therapeutic_comparator,Therapeutic comparator,therapeutic_comparator,null/blank; may be not applicable to single-arm studies,conditionally applicable study-design field,False,A comparator is not applicable to every study design,563,21.56261968594408,2048
+randomized_or_not,Randomization status,randomized_or_not,null/blank,core model source field,True,,528,20.222137112217542,2083
+dose_mg_extracted,Extracted dose,log_dose_mg_extracted; dose_mg_missing,dose_mg_missing = 1,core model source field,True,,525,20.10723860589812,2086
+sequence_verified,Sequence verification status,sequence_verified,null/blank,core model source field,True,,293,11.221754117196477,2318
+trial_blinding,Trial blinding,trial_blinding,null/blank,core model source field,True,,243,9.306779011872845,2368
+prospective_or_retrospective,Study direction,prospective_or_retrospective,null/blank,core model source field,True,,221,8.464189965530448,2390
+disease_category_clean,Disease category,disease_category_clean,null/blank or Unspecified,core model source field,True,,59,2.2596706242818843,2552
+n_ada_assessed,ADA-assessed sample size,log_n_ada_assessed,null/blank,core model source field,True,,10,0.38299502106472616,2601
+antibody_backbone_clean,Antibody backbone,antibody_backbone_clean,null/blank,core model source field,True,,0,0.0,2611
+assessment_days,Assessment duration,log_assessment_days,null/blank,core model source field,True,,0,0.0,2611
+conjugate_modification_clean,Conjugation/modification class,conjugate_modification_clean,null/blank,core model source field,True,,0,0.0,2611
+labelled_as_biosimilar,Biosimilar label,labelled_as_biosimilar,null/blank,core model source field,True,,0,0.0,2611
+light_chain_clean,Light-chain type,light_chain_clean,null/blank,core model source field,True,,0,0.0,2611
+moa_group,MOA group,moa_group,null/blank,core model source field,True,,0,0.0,2611
+protein_modality,Protein modality,protein_modality,null/blank,core model source field,True,,0,0.0,2611
+route_clean,Administration route,route_clean,null/blank,core model source field,True,,0,0.0,2611
+species,Species/origin,species,null/blank,core model source field,True,,0,0.0,2611
+target_group,Target group,target_group,null/blank,core model source field,True,,0,0.0,2611

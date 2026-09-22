@@ -1,0 +1,10 @@
+step,criterion,rows,note
+1,Raw ADA-frequency rows,3334,User original IDC DB V1 / Clinical Trial
+2,Therapeutic Exposed,2705,Paper population rule
+3,Exposed with non-missing ADA frequency,2666,Binary outcome available
+4,Sequence-length proxy available,2365,Not the paper epitope count
+5,Dose proxy parsed,2464,Regex + stated body-size assumptions
+6,Dose-interval proxy parsed,1687,Regex/list cadence parser
+7,Trial completion year available,2651,Trial End Date
+8,Complete public-data proxy model,1443,All eight proxy fields complete
+9,Paper-inferred exact complete cases,1216,Inferred from Table S6 residual df

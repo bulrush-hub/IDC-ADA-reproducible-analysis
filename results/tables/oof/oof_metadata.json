@@ -1,0 +1,16 @@
+{
+  "development_rows": 2237,
+  "schemes": [
+    "study",
+    "molecule"
+  ],
+  "folds_per_scheme": 5,
+  "feature_count": 29,
+  "tabpfn_version": "8.2.0",
+  "tabpfn_estimators": 8,
+  "torch_version": "2.13.0+cpu",
+  "torch_cuda_available": false,
+  "sklearn_version": "1.9.0",
+  "wall_seconds": 473.98558449999837,
+  "sealed_test_outcome_used": false
+}

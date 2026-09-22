@@ -1,0 +1,12 @@
+scenario_id,l2_penalty,outer_folds_selected,selection_percent
+all_public_rows_grouped,0.01,10,0.2
+all_public_rows_grouped,0.1,20,0.4
+all_public_rows_grouped,1.0,14,0.28
+all_public_rows_grouped,10.0,6,0.12
+one_row_per_molecule,0.1,10,0.2
+one_row_per_molecule,1.0,18,0.36
+one_row_per_molecule,10.0,22,0.44
+one_row_per_molecule_disease_category,0.01,1,0.02
+one_row_per_molecule_disease_category,0.1,6,0.12
+one_row_per_molecule_disease_category,1.0,9,0.18
+one_row_per_molecule_disease_category,10.0,34,0.68

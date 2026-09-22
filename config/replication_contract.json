@@ -1,0 +1,55 @@
+{
+  "analysis": "Figure 6 / Supplementary Table S6 sequential-deviance logistic regression",
+  "outcome": {
+    "source_field": "Frequency of ADA+ patients",
+    "definition": "low <10%; high >=10%",
+    "unit": "percent"
+  },
+  "population": "Therapeutic Exposed cohorts with complete data for all eight model factors",
+  "expected_complete_cases": 1216,
+  "expected_final_residual_df": 1199,
+  "inferred_formula_order": [
+    "T cell Epitope Content",
+    "Disease Indication",
+    "Therapeutic Immune MOA Type",
+    "Comedication Immune MOA Type",
+    "Dose Level",
+    "Dose Interval",
+    "Year Trial was Completed",
+    "Route of Administration"
+  ],
+  "category_contract": {
+    "Therapeutic Immune MOA Type": [
+      "Anti-inflammation",
+      "T/B cell activator",
+      "T/B cell depletor",
+      "Other"
+    ],
+    "Disease Indication": [
+      "Hematological malignancy",
+      "Infectious diseases",
+      "Inflammation and autoimmunity",
+      "Solid tumor",
+      "Other"
+    ],
+    "Comedication Immune MOA Type": [
+      "No co-medications",
+      "Non-immune suppressors",
+      "Immune suppressors"
+    ]
+  },
+  "strict_replication_gate": {
+    "required_file": "paper_replication/data/manual/paper_derived_variables.csv",
+    "required_key": "replication_row_key",
+    "required_fields": [
+      "therapeutic_moa_type",
+      "disease_indication_group",
+      "t_cell_epitope_content",
+      "dose_interval_days",
+      "route_group",
+      "comedication_moa_type",
+      "dose_level",
+      "trial_year_completed"
+    ]
+  }
+}

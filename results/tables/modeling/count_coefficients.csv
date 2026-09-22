@@ -1,0 +1,94 @@
+outcome,transformed_feature,coefficient,p_value,absolute_coefficient
+binomial_count,cat__disease_category_clean_Metabolic and endocrine disorders,6.999826547206513,,6.999826547206513
+binomial_count,cat__antibody_backbone_clean_Not applicable,4.529964203240297,,4.529964203240297
+binomial_count,cat__protein_modality_infrequent_sklearn,-4.503112990525136,,4.503112990525136
+binomial_count,cat__antibody_backbone_clean_scFv,4.443123977965697,,4.443123977965697
+binomial_count,cat__moa_group_Enzyme replacement/substrate degradation,-4.059491478430177,,4.059491478430177
+binomial_count,cat__conjugate_modification_clean_PEG conjugate,-4.059491478430064,,4.059491478430064
+binomial_count,cat__target_group_Neurotrophic/neuropeptide pathway,-3.1045236812782453,,3.1045236812782453
+binomial_count,cat__disease_category_clean_Neurological,2.988082214908683,,2.988082214908683
+binomial_count,cat__disease_category_clean_Infectious diseases,2.6634315376107542,,2.6634315376107542
+binomial_count,cat__disease_category_clean_Unspecified,2.5143840078423585,,2.5143840078423585
+binomial_count,cat__disease_category_clean_Renal and urogenital,-2.459545683844625,,2.459545683844625
+binomial_count,cat__target_group_Immune checkpoint/co-stimulation,2.175412659024081,,2.175412659024081
+binomial_count,cat__antibody_backbone_clean_infrequent_sklearn,-2.0528710762799816,,2.0528710762799816
+binomial_count,cat__species_Chimeric,1.9918347432934276,,1.9918347432934276
+binomial_count,cat__moa_group_Receptor agonism,1.928862393854953,,1.928862393854953
+binomial_count,cat__species_infrequent_sklearn,-1.9086697038023832,,1.9086697038023832
+binomial_count,cat__moa_group_Complement inhibition,1.8273677602195955,,1.8273677602195955
+binomial_count,cat__target_group_Pathogen/toxin antigen,-1.6643877103881157,,1.6643877103881157
+binomial_count,cat__moa_group_Pathogen/toxin neutralization,-1.6643877103880984,,1.6643877103880984
+binomial_count,cat__trial_blinding_Missing,-1.6346684636320081,,1.6346684636320081
+binomial_count,cat__disease_category_clean_infrequent_sklearn,1.5993032787201549,,1.5993032787201549
+binomial_count,cat__protein_modality_Monoclonal Antibody,-1.5449309703221772,,1.5449309703221772
+binomial_count,cat__prospective_or_retrospective_Prospective,-1.5315105622038023,,1.5315105622038023
+binomial_count,cat__ada_assay_platform_Multiple platforms,1.5175988607075475,,1.5175988607075475
+binomial_count,cat__target_group_Complement/coagulation/protease,-1.5149126955472103,,1.5149126955472103
+binomial_count,cat__disease_category_clean_Inflammation and autoimmunity,1.4926486727531556,,1.4926486727531556
+binomial_count,cat__conjugate_modification_clean_Unconjugated,-1.4915656381260243,,1.4915656381260243
+binomial_count,cat__protein_modality_Immunotoxin,1.3850446285309326,,1.3850446285309326
+binomial_count,cat__moa_group_Tissue dispersion/drug delivery,-1.3659424560784366,,1.3659424560784366
+binomial_count,cat__target_group_Extracellular matrix/drug delivery,-1.3659424560783928,,1.3659424560783928
+binomial_count,cat__light_chain_clean_infrequent_sklearn,1.3415210144488123,,1.3415210144488123
+binomial_count,intercept,-1.3250843792395883,,1.3250843792395883
+binomial_count,cat__protein_modality_Enzyme,-1.3088407478144808,,1.3088407478144808
+binomial_count,cat__route_clean_Subcutaneous,1.3021122608227107,,1.3021122608227107
+binomial_count,cat__therapeutic_comparator_Placebo/Sham,-1.2438800801064622,,1.2438800801064622
+binomial_count,cat__light_chain_clean_Not applicable,1.1788781389642276,,1.1788781389642276
+binomial_count,cat__moa_group_Targeted payload delivery,-1.1760148837918714,,1.1760148837918714
+binomial_count,cat__sequence_verified_Yes,1.1749174860860667,,1.1749174860860667
+binomial_count,cat__disease_category_clean_Cardiovascular,1.1223393167678941,,1.1223393167678941
+binomial_count,cat__target_group_Metabolic/lipid regulator,1.122339316767879,,1.122339316767879
+binomial_count,cat__moa_group_infrequent_sklearn,-1.0851154396642582,,1.0851154396642582
+binomial_count,cat__species_Humanized,1.0402160258514728,,1.0402160258514728
+binomial_count,cat__target_group_Bone/mineral metabolism,-1.020667972776461,,1.020667972776461
+binomial_count,cat__ada_assay_platform_ELISA,0.9945469673929523,,0.9945469673929523
+binomial_count,cat__conjugate_modification_clean_Not applicable,-0.9850267930028724,,0.9850267930028724
+binomial_count,cat__therapeutic_comparator_Parallel Assignment,-0.8438242722734572,,0.8438242722734572
+binomial_count,cat__therapeutic_comparator_Missing,-0.8292938658259646,,0.8292938658259646
+binomial_count,cat__antibody_backbone_clean_Human IgG4,-0.8274946252273122,,0.8274946252273122
+binomial_count,cat__protein_modality_Monoclonal antibody,-0.7564400330497535,,0.7564400330497535
+binomial_count,cat__ada_assay_platform_Other ligand-binding assay,-0.596011941704168,,0.596011941704168
+binomial_count,cat__antibody_backbone_clean_Human IgG2,0.5126119812514596,,0.5126119812514596
+binomial_count,cat__target_group_Cytokine/immune mediator,0.5029762026135638,,0.5029762026135638
+binomial_count,cat__ada_assay_platform_Not reported,-0.48285920035720276,,0.48285920035720276
+binomial_count,cat__disease_category_clean_Musculoskeletal,0.42392730208012647,,0.42392730208012647
+binomial_count,cat__trial_blinding_Open Label,-0.3993588632528003,,0.3993588632528003
+binomial_count,num__sequence_available,-0.3860901283727426,,0.3860901283727426
+binomial_count,num__ada_assay_missing,0.3506885012331123,,0.3506885012331123
+binomial_count,cat__randomized_or_not_Not Randomized,-0.3332431252797536,,0.3332431252797536
+binomial_count,cat__ada_assay_platform_infrequent_sklearn,-0.32150077218329415,,0.32150077218329415
+binomial_count,cat__trial_blinding_infrequent_sklearn,0.2883213082538252,,0.2883213082538252
+binomial_count,cat__target_group_infrequent_sklearn,-0.26922049293964256,,0.26922049293964256
+binomial_count,cat__moa_group_Immune checkpoint blockade,0.24655026516917192,,0.24655026516917192
+binomial_count,cat__light_chain_clean_Lambda,-0.2277885509210243,,0.2277885509210243
+binomial_count,cat__species_Human,0.22598140531681765,,0.22598140531681765
+binomial_count,num__log_dose_mg_extracted,-0.20124818787093102,,0.20124818787093102
+binomial_count,cat__route_clean_Intravenous,-0.1818528001476197,,0.1818528001476197
+binomial_count,num__dose_mg_missing,0.17841462178425482,,0.17841462178425482
+binomial_count,cat__trial_blinding_Triple,0.17548768976351956,,0.17548768976351956
+binomial_count,cat__sequence_verified_infrequent_sklearn,-0.1622048607303511,,0.1622048607303511
+binomial_count,cat__target_group_Cytokine receptor,-0.1613037876721119,,0.1613037876721119
+binomial_count,cat__randomized_or_not_Randomized,0.15826998517992832,,0.15826998517992832
+binomial_count,cat__disease_category_clean_Healthy Volunteer,-0.1446657901572219,,0.1446657901572219
+binomial_count,cat__target_group_Growth factor/oncogenic pathway,-0.14229326110493623,,0.14229326110493623
+binomial_count,cat__ada_assay_platform_Platform unclear,-0.13839721929145946,,0.13839721929145946
+binomial_count,num__has_coadministered_drugs,-0.12463426610063318,,0.12463426610063318
+binomial_count,num__comedication_missing,0.1246342661006326,,0.1246342661006326
+binomial_count,cat__moa_group_Immune-cell targeting/modulation,-0.1164204617515508,,0.1164204617515508
+binomial_count,cat__target_group_Immune-cell surface antigen,0.10935250972070856,,0.10935250972070856
+binomial_count,cat__labelled_as_biosimilar_Yes,-0.10726436622222865,,0.10726436622222865
+binomial_count,cat__target_group_Multi-target/composite,-0.10494061093729143,,0.10494061093729143
+binomial_count,cat__route_clean_infrequent_sklearn,0.07878569396297373,,0.07878569396297373
+binomial_count,cat__moa_group_Ligand neutralization,0.07866226212063684,,0.07866226212063684
+binomial_count,num__log_n_ada_assessed,-0.07532789692567725,,0.07532789692567725
+binomial_count,cat__route_clean_Ophthalmic,0.06526430104158767,,0.06526430104158767
+binomial_count,num__ada_assay_sensitivity_missing,0.06220109380118856,,0.06220109380118856
+binomial_count,num__log_total_sequence_length,0.059242946436194606,,0.059242946436194606
+binomial_count,cat__target_group_Metabolic substrate,0.05710170826415958,,0.05710170826415958
+binomial_count,cat__conjugate_modification_clean_infrequent_sklearn,0.04975287441229401,,0.04975287441229401
+binomial_count,num__max_chain_length,0.04913897807116208,,0.04913897807116208
+binomial_count,num__log_assessment_days,0.03902554285203265,,0.03902554285203265
+binomial_count,num__n_sequence_chains,-0.03342017967024035,,0.03342017967024035
+binomial_count,num__n_unique_sequences,-0.03342017967023924,,0.03342017967023924
+binomial_count,cat__moa_group_Receptor blockade/antagonism,0.004919476408281518,,0.004919476408281518

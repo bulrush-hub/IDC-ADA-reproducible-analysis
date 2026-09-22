@@ -1,0 +1,26 @@
+{
+  "generated_utc": "2026-08-09T00:30:08.054460+00:00",
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "output_directory": "C:\\Users\\BulrushMarry\\Documents\\Codex\\2026-08-02\\1-bevacizumab-cd22-target-mapping-audit\\outputs\\paper_replication_grouped_cv",
+  "prior_results_untouched": true,
+  "evaluation": "repeated nested stratified group cross-validation",
+  "group_key": "normalized molecule INN",
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "repeats": 10,
+  "l2_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "hyperparameter_metric": "inner-fold log loss",
+  "permutations_per_outer_fold": 3,
+  "bootstrap_replicates": 2000,
+  "bootstrap_unit": "molecule cluster",
+  "random_seed": 20260809,
+  "model": "L2-regularized logistic regression; unpenalized intercept",
+  "preprocessing": "numeric standardization and categorical encoding fit inside each training fold",
+  "source_dedup_directory": "C:\\Users\\BulrushMarry\\Documents\\Codex\\2026-08-02\\1-bevacizumab-cd22-target-mapping-audit\\outputs\\paper_replication_dedup_scenarios"
+}

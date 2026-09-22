@@ -1,0 +1,172 @@
+{
+  "generated_utc": "2026-08-08T22:40:46.435Z",
+  "baseline_id": "user_original",
+  "sources": [
+    {
+      "id": "user_original",
+      "path": "paper_replication/data/raw/User_IDC_DB_V1_All_Tables.xlsx",
+      "bytes": 1251978,
+      "binary_sha256": "04460D6F62E580CBCA69DD9953FBFFF4B9EDF65C970CD2287F130030F113317A"
+    },
+    {
+      "id": "author_github_v1_00",
+      "path": "paper_replication/data/raw/IDC-DB/releases/V1.00/IDC_DB_V1_All_Tables.xlsx",
+      "bytes": 1251978,
+      "binary_sha256": "04460D6F62E580CBCA69DD9953FBFFF4B9EDF65C970CD2287F130030F113317A"
+    },
+    {
+      "id": "frontiers_table_2",
+      "path": "paper_replication/data/raw/Frontiers_Table_2.xlsx",
+      "bytes": 1250795,
+      "binary_sha256": "2A1367F53CBAAFD0D36EAB583A071C1A979A339FE8D01AD65BDA2B4F57CFD412"
+    }
+  ],
+  "comparisons": [
+    {
+      "comparator_id": "author_github_v1_00",
+      "binary_identical_to_user": true,
+      "all_sheet_values_identical_to_user": true,
+      "sheets": {
+        "Licensing": {
+          "user_rows": 2,
+          "comparator_rows": 2,
+          "user_columns": 1,
+          "comparator_columns": 1,
+          "user_value_sha256": "CB4056E558FDA3E0CC2C036F524D427D48298AC997BACD9FD643D43E54854959",
+          "comparator_value_sha256": "CB4056E558FDA3E0CC2C036F524D427D48298AC997BACD9FD643D43E54854959",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Therapeutic": {
+          "user_rows": 219,
+          "comparator_rows": 219,
+          "user_columns": 24,
+          "comparator_columns": 24,
+          "user_value_sha256": "5680DC11BB8C4DFAC28A1A86D46EC75E9C0707AACDA5BA60467E4441A8AFF4A3",
+          "comparator_value_sha256": "5680DC11BB8C4DFAC28A1A86D46EC75E9C0707AACDA5BA60467E4441A8AFF4A3",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Sequence": {
+          "user_rows": 223,
+          "comparator_rows": 223,
+          "user_columns": 8,
+          "comparator_columns": 8,
+          "user_value_sha256": "1A0DFB537497D53205736AEA0A678F1C5AAC4369896CB0782EC7D9B4F18B4958",
+          "comparator_value_sha256": "1A0DFB537497D53205736AEA0A678F1C5AAC4369896CB0782EC7D9B4F18B4958",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Clinical Trial": {
+          "user_rows": 3335,
+          "comparator_rows": 3335,
+          "user_columns": 43,
+          "comparator_columns": 43,
+          "user_value_sha256": "FC9644B92B1E8BD26F8CDB35E7E267D38C8E0EF1F2AA47543516D624DCC3A5DB",
+          "comparator_value_sha256": "FC9644B92B1E8BD26F8CDB35E7E267D38C8E0EF1F2AA47543516D624DCC3A5DB",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Variables Explained": {
+          "user_rows": 80,
+          "comparator_rows": 80,
+          "user_columns": 2,
+          "comparator_columns": 2,
+          "user_value_sha256": "29289793980B7144EB5D6021CA79AA368E53F5490268EA3ACC0F98FECEC8A2B9",
+          "comparator_value_sha256": "29289793980B7144EB5D6021CA79AA368E53F5490268EA3ACC0F98FECEC8A2B9",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Controlled Language": {
+          "user_rows": 16,
+          "comparator_rows": 16,
+          "user_columns": 20,
+          "comparator_columns": 20,
+          "user_value_sha256": "1631BD78EC6E8C5E4A7259FCABE5C1D004AD5B50972E746C64C0ADA498CA8B4C",
+          "comparator_value_sha256": "1631BD78EC6E8C5E4A7259FCABE5C1D004AD5B50972E746C64C0ADA498CA8B4C",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        }
+      }
+    },
+    {
+      "comparator_id": "frontiers_table_2",
+      "binary_identical_to_user": false,
+      "all_sheet_values_identical_to_user": true,
+      "sheets": {
+        "Licensing": {
+          "user_rows": 2,
+          "comparator_rows": 2,
+          "user_columns": 1,
+          "comparator_columns": 1,
+          "user_value_sha256": "CB4056E558FDA3E0CC2C036F524D427D48298AC997BACD9FD643D43E54854959",
+          "comparator_value_sha256": "CB4056E558FDA3E0CC2C036F524D427D48298AC997BACD9FD643D43E54854959",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Therapeutic": {
+          "user_rows": 219,
+          "comparator_rows": 219,
+          "user_columns": 24,
+          "comparator_columns": 24,
+          "user_value_sha256": "5680DC11BB8C4DFAC28A1A86D46EC75E9C0707AACDA5BA60467E4441A8AFF4A3",
+          "comparator_value_sha256": "5680DC11BB8C4DFAC28A1A86D46EC75E9C0707AACDA5BA60467E4441A8AFF4A3",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Sequence": {
+          "user_rows": 223,
+          "comparator_rows": 223,
+          "user_columns": 8,
+          "comparator_columns": 8,
+          "user_value_sha256": "1A0DFB537497D53205736AEA0A678F1C5AAC4369896CB0782EC7D9B4F18B4958",
+          "comparator_value_sha256": "1A0DFB537497D53205736AEA0A678F1C5AAC4369896CB0782EC7D9B4F18B4958",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Clinical Trial": {
+          "user_rows": 3335,
+          "comparator_rows": 3335,
+          "user_columns": 43,
+          "comparator_columns": 43,
+          "user_value_sha256": "FC9644B92B1E8BD26F8CDB35E7E267D38C8E0EF1F2AA47543516D624DCC3A5DB",
+          "comparator_value_sha256": "FC9644B92B1E8BD26F8CDB35E7E267D38C8E0EF1F2AA47543516D624DCC3A5DB",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Variables Explained": {
+          "user_rows": 80,
+          "comparator_rows": 80,
+          "user_columns": 2,
+          "comparator_columns": 2,
+          "user_value_sha256": "29289793980B7144EB5D6021CA79AA368E53F5490268EA3ACC0F98FECEC8A2B9",
+          "comparator_value_sha256": "29289793980B7144EB5D6021CA79AA368E53F5490268EA3ACC0F98FECEC8A2B9",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        },
+        "Controlled Language": {
+          "user_rows": 16,
+          "comparator_rows": 16,
+          "user_columns": 20,
+          "comparator_columns": 20,
+          "user_value_sha256": "1631BD78EC6E8C5E4A7259FCABE5C1D004AD5B50972E746C64C0ADA498CA8B4C",
+          "comparator_value_sha256": "1631BD78EC6E8C5E4A7259FCABE5C1D004AD5B50972E746C64C0ADA498CA8B4C",
+          "exact_cell_values": true,
+          "differing_cells": 0,
+          "first_differences": []
+        }
+      }
+    }
+  ]
+}

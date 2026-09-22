@@ -1,0 +1,175 @@
+outcome,method,feature,importance_mean,importance_sd,rank,importance_sd_across_folds,positive_fold_fraction,mean_abs_shap
+continuous,held-out permutation importance,therapeutic_comparator,1.5755884594903744,0.28868750125400716,1,,,
+continuous,held-out permutation importance,labelled_as_biosimilar,1.3217300353861834,0.21257413024718208,2,,,
+continuous,held-out permutation importance,route_clean,1.0049285366104646,0.2649889585208981,3,,,
+continuous,held-out permutation importance,antibody_backbone_clean,0.9214713391153709,0.04878536363849651,4,,,
+continuous,held-out permutation importance,target_group,0.6457417686219208,0.12887792953945662,5,,,
+continuous,held-out permutation importance,log_assessment_days,0.5112144887704608,0.09384240286462837,6,,,
+continuous,held-out permutation importance,log_n_ada_assessed,0.4115620105378319,0.1402098995274004,7,,,
+continuous,held-out permutation importance,protein_modality,0.35755214189914986,0.038164139830022474,8,,,
+continuous,held-out permutation importance,log_dose_mg_extracted,0.29926802185807766,0.057848557022879374,9,,,
+continuous,held-out permutation importance,ada_assay_platform,0.2573398807405846,0.07416483677736688,10,,,
+continuous,held-out permutation importance,trial_blinding,0.2544019929011994,0.07820537505614657,11,,,
+continuous,held-out permutation importance,randomized_or_not,0.21747627562359698,0.0761565178370632,12,,,
+continuous,held-out permutation importance,log_total_sequence_length,0.20406309251451096,0.05821297448809992,13,,,
+continuous,held-out permutation importance,species,0.19470445891692187,0.07158973316847594,14,,,
+continuous,held-out permutation importance,moa_group,0.1667890935425739,0.018776938638175825,15,,,
+continuous,held-out permutation importance,prospective_or_retrospective,0.15455083817581375,0.0971100027511803,16,,,
+continuous,held-out permutation importance,max_chain_length,0.1362970600364443,0.06036966478101713,17,,,
+continuous,held-out permutation importance,dose_mg_missing,0.12250919647708702,0.058483922983339355,18,,,
+continuous,held-out permutation importance,light_chain_clean,0.12116334551057821,0.021157998546791346,19,,,
+continuous,held-out permutation importance,comedication_missing,0.09346212871679856,0.015337753657235564,20,,,
+continuous,held-out permutation importance,has_coadministered_drugs,0.09327051612328097,0.015476569221945149,21,,,
+continuous,held-out permutation importance,conjugate_modification_clean,0.041433989066233856,0.008918872362261914,22,,,
+continuous,held-out permutation importance,sequence_verified,0.03349985480759695,0.004552978709247543,23,,,
+continuous,held-out permutation importance,ada_assay_sensitivity_missing,0.03349396409892069,0.03558660283692941,24,,,
+continuous,held-out permutation importance,disease_category_clean,0.02379693749312232,0.06904503157170258,25,,,
+continuous,held-out permutation importance,sequence_available,0.02092009312445849,0.009469114417798612,26,,,
+continuous,held-out permutation importance,n_unique_sequences,7.140569934878845e-05,7.065804673417938e-06,27,,,
+continuous,held-out permutation importance,n_sequence_chains,1.153200526360365e-05,3.477030413242576e-06,28,,,
+continuous,held-out permutation importance,ada_assay_missing,-0.023812335127488222,0.009129746332142192,29,,,
+binary,held-out permutation importance,route_clean,0.04492047185139714,0.015609404750891986,1,,,
+binary,held-out permutation importance,log_n_ada_assessed,0.04006138998884249,0.009267056772367029,2,,,
+binary,held-out permutation importance,therapeutic_comparator,0.03328910894993486,0.00497935657981701,3,,,
+binary,held-out permutation importance,target_group,0.021089138435846522,0.00951244455699383,4,,,
+binary,held-out permutation importance,randomized_or_not,0.019526757504579623,0.010616617868887748,5,,,
+binary,held-out permutation importance,log_dose_mg_extracted,0.016460145381418722,0.01761196630260762,6,,,
+binary,held-out permutation importance,log_assessment_days,0.01460476775644537,0.008209005080240514,7,,,
+binary,held-out permutation importance,labelled_as_biosimilar,0.013293080023089127,0.00429586784232084,8,,,
+binary,held-out permutation importance,disease_category_clean,0.012493282309350947,0.010644428180132701,9,,,
+binary,held-out permutation importance,ada_assay_platform,0.01240754610067027,0.009934241200246312,10,,,
+binary,held-out permutation importance,sequence_available,0.011472360987971183,0.004554763088574059,11,,,
+binary,held-out permutation importance,antibody_backbone_clean,0.00963353740398675,0.008212270006027799,12,,,
+binary,held-out permutation importance,light_chain_clean,0.00731527850357878,0.0073211586134142624,13,,,
+binary,held-out permutation importance,log_total_sequence_length,0.007247588959939026,0.01468514730287051,14,,,
+binary,held-out permutation importance,protein_modality,0.00664612664291762,0.0017391562238019773,15,,,
+binary,held-out permutation importance,sequence_verified,0.0062303870368145735,0.0023982549875591415,16,,,
+binary,held-out permutation importance,conjugate_modification_clean,0.006194879418388671,0.000933123582041308,17,,,
+binary,held-out permutation importance,dose_mg_missing,0.0017115068517997896,0.0026204126529017057,18,,,
+binary,held-out permutation importance,n_sequence_chains,1.1293390771031456e-05,0.00017734050446548063,19,,,
+binary,held-out permutation importance,n_unique_sequences,-8.51722031687078e-06,0.00016424866341050454,20,,,
+binary,held-out permutation importance,max_chain_length,-0.0014246361255226825,0.009071362286763753,21,,,
+binary,held-out permutation importance,prospective_or_retrospective,-0.0014251059708666098,0.008926936422630701,22,,,
+binary,held-out permutation importance,ada_assay_missing,-0.0018742654214644698,0.0034048441885524035,23,,,
+binary,held-out permutation importance,moa_group,-0.003734290477327734,0.007872290808280488,24,,,
+binary,held-out permutation importance,comedication_missing,-0.015322748768544161,0.004613916435097461,25,,,
+binary,held-out permutation importance,ada_assay_sensitivity_missing,-0.015864149829484763,0.006376347469294159,26,,,
+binary,held-out permutation importance,has_coadministered_drugs,-0.018793586086200426,0.007080095955508381,27,,,
+binary,held-out permutation importance,trial_blinding,-0.01897647028301248,0.005072492501706895,28,,,
+binary,held-out permutation importance,species,-0.019774720326929413,0.006083996956881689,29,,,
+continuous,5-fold grouped CV permutation importance,disease_category_clean,1.115871017483914,,1,1.3033556389216565,1.0,
+continuous,5-fold grouped CV permutation importance,therapeutic_comparator,1.1101218355546123,,2,0.300386390363633,1.0,
+continuous,5-fold grouped CV permutation importance,target_group,1.0226783335552807,,3,0.5552191245386429,1.0,
+continuous,5-fold grouped CV permutation importance,route_clean,0.7218733362472405,,4,0.36869479884929185,1.0,
+continuous,5-fold grouped CV permutation importance,labelled_as_biosimilar,0.6516994430717218,,5,0.2286041158971801,1.0,
+continuous,5-fold grouped CV permutation importance,log_assessment_days,0.38278081745123715,,6,0.25221348288303796,1.0,
+continuous,5-fold grouped CV permutation importance,moa_group,0.3170137698185876,,7,0.2966338440250522,1.0,
+continuous,5-fold grouped CV permutation importance,species,0.31128819950027614,,8,0.1516005494825685,1.0,
+continuous,5-fold grouped CV permutation importance,prospective_or_retrospective,0.2868609977207411,,9,0.26193256605900345,1.0,
+continuous,5-fold grouped CV permutation importance,log_dose_mg_extracted,0.22946339690901282,,10,0.19368975514271541,0.8,
+continuous,5-fold grouped CV permutation importance,antibody_backbone_clean,0.22188366135128185,,11,0.20760962062457755,0.8,
+continuous,5-fold grouped CV permutation importance,max_chain_length,0.1823349800417829,,12,0.09792564314527666,1.0,
+continuous,5-fold grouped CV permutation importance,log_total_sequence_length,0.1639947452683323,,13,0.05232204798472109,1.0,
+continuous,5-fold grouped CV permutation importance,log_n_ada_assessed,0.1374891275019698,,14,0.21303984380808466,0.8,
+continuous,5-fold grouped CV permutation importance,trial_blinding,0.09312534038685803,,15,0.25170610510301633,0.6,
+continuous,5-fold grouped CV permutation importance,dose_mg_missing,0.09186438580886154,,16,0.026981302498267013,1.0,
+continuous,5-fold grouped CV permutation importance,light_chain_clean,0.0858323141735862,,17,0.042727420702300345,1.0,
+continuous,5-fold grouped CV permutation importance,randomized_or_not,0.04054215201756293,,18,0.050545962008907555,0.8,
+continuous,5-fold grouped CV permutation importance,ada_assay_sensitivity_missing,0.03274887895203604,,19,0.1657028113706337,0.4,
+continuous,5-fold grouped CV permutation importance,has_coadministered_drugs,0.02384158128056775,,20,0.01985153713711478,1.0,
+continuous,5-fold grouped CV permutation importance,comedication_missing,0.021585221231206972,,21,0.034151788712557564,0.6,
+continuous,5-fold grouped CV permutation importance,sequence_verified,0.014915329945631514,,22,0.03695738710746316,0.6,
+continuous,5-fold grouped CV permutation importance,sequence_available,0.01453742024589445,,23,0.026681819360311766,0.6,
+continuous,5-fold grouped CV permutation importance,n_sequence_chains,0.00033955231034695995,,24,0.0006913247509170977,0.4,
+continuous,5-fold grouped CV permutation importance,n_unique_sequences,0.0001354120260732827,,25,0.00031402253473581033,0.4,
+continuous,5-fold grouped CV permutation importance,ada_assay_platform,-0.00035210209238165644,,26,0.1822807570505015,0.8,
+continuous,5-fold grouped CV permutation importance,conjugate_modification_clean,-0.001099417067963912,,27,0.0373819802267472,0.4,
+continuous,5-fold grouped CV permutation importance,protein_modality,-0.005657439373331458,,28,0.08136827760070606,0.8,
+continuous,5-fold grouped CV permutation importance,ada_assay_missing,-0.010701689802013447,,29,0.03768089356117497,0.4,
+binary,5-fold grouped CV permutation importance,route_clean,0.04540733506781632,,1,0.013809884357840807,1.0,
+binary,5-fold grouped CV permutation importance,target_group,0.020883881658891178,,2,0.01939333010134719,1.0,
+binary,5-fold grouped CV permutation importance,log_n_ada_assessed,0.01936553124694021,,3,0.01050267023249536,1.0,
+binary,5-fold grouped CV permutation importance,log_dose_mg_extracted,0.018216702447685095,,4,0.008301640209902445,1.0,
+binary,5-fold grouped CV permutation importance,log_total_sequence_length,0.017108897290178046,,5,0.01021541942544776,0.8,
+binary,5-fold grouped CV permutation importance,log_assessment_days,0.01593341050953258,,6,0.00654934310161922,1.0,
+binary,5-fold grouped CV permutation importance,species,0.011894273504649258,,7,0.013217834853405084,0.8,
+binary,5-fold grouped CV permutation importance,max_chain_length,0.011240545190725783,,8,0.011045837052826349,0.8,
+binary,5-fold grouped CV permutation importance,therapeutic_comparator,0.010360129235544498,,9,0.007505419851556833,0.8,
+binary,5-fold grouped CV permutation importance,prospective_or_retrospective,0.010067762819741661,,10,0.011666155817664618,0.8,
+binary,5-fold grouped CV permutation importance,randomized_or_not,0.007130765130418449,,11,0.006713438407678532,0.8,
+binary,5-fold grouped CV permutation importance,light_chain_clean,0.00615922693310769,,12,0.004140215380117898,1.0,
+binary,5-fold grouped CV permutation importance,trial_blinding,0.005812507512409057,,13,0.00634729511372597,0.8,
+binary,5-fold grouped CV permutation importance,ada_assay_platform,0.0056878266580699275,,14,0.009289739858914963,0.8,
+binary,5-fold grouped CV permutation importance,antibody_backbone_clean,0.005532214051395337,,15,0.014933393275978354,0.6,
+binary,5-fold grouped CV permutation importance,moa_group,0.003669148551002608,,16,0.011537173481031102,0.4,
+binary,5-fold grouped CV permutation importance,disease_category_clean,0.0022911755176202187,,17,0.009936921211100281,0.6,
+binary,5-fold grouped CV permutation importance,has_coadministered_drugs,0.0008979327714294213,,18,0.007621074128208388,0.4,
+binary,5-fold grouped CV permutation importance,comedication_missing,0.0004231801245372457,,19,0.007256170118013708,0.6,
+binary,5-fold grouped CV permutation importance,n_sequence_chains,5.704701420600422e-05,,20,6.083017811897162e-05,0.8,
+binary,5-fold grouped CV permutation importance,n_unique_sequences,6.5560138158726746e-06,,21,5.660091756386717e-05,0.6,
+binary,5-fold grouped CV permutation importance,ada_assay_missing,-0.0011489707959839012,,22,0.004222437921627368,0.4,
+binary,5-fold grouped CV permutation importance,ada_assay_sensitivity_missing,-0.001357330625166253,,23,0.003291199477409028,0.4,
+binary,5-fold grouped CV permutation importance,conjugate_modification_clean,-0.0015295414823468787,,24,0.004267369928871079,0.8,
+binary,5-fold grouped CV permutation importance,dose_mg_missing,-0.0019179274853939534,,25,0.003807636510468044,0.2,
+binary,5-fold grouped CV permutation importance,labelled_as_biosimilar,-0.002470428874499344,,26,0.01896239616673557,0.6,
+binary,5-fold grouped CV permutation importance,sequence_verified,-0.002490189278865658,,27,0.0036937771092397987,0.4,
+binary,5-fold grouped CV permutation importance,protein_modality,-0.0036616749663107755,,28,0.005205034998569923,0.4,
+binary,5-fold grouped CV permutation importance,sequence_available,-0.0059143978102273835,,29,0.010353097897369396,0.4,
+continuous,Random-forest SHAP (aggregated to raw feature),route_clean,,,1,,,3.640990686552842
+continuous,Random-forest SHAP (aggregated to raw feature),therapeutic_comparator,,,2,,,3.373431371155903
+continuous,Random-forest SHAP (aggregated to raw feature),target_group,,,3,,,2.9752883930849188
+continuous,Random-forest SHAP (aggregated to raw feature),labelled_as_biosimilar,,,4,,,2.6406010328799887
+continuous,Random-forest SHAP (aggregated to raw feature),disease_category_clean,,,5,,,2.057351314989937
+continuous,Random-forest SHAP (aggregated to raw feature),species,,,6,,,1.4506423776814017
+continuous,Random-forest SHAP (aggregated to raw feature),trial_blinding,,,7,,,1.1358024560571647
+continuous,Random-forest SHAP (aggregated to raw feature),antibody_backbone_clean,,,8,,,1.082641422022557
+continuous,Random-forest SHAP (aggregated to raw feature),log_dose_mg_extracted,,,9,,,1.0034279872594516
+continuous,Random-forest SHAP (aggregated to raw feature),log_assessment_days,,,10,,,0.9508978529653314
+continuous,Random-forest SHAP (aggregated to raw feature),prospective_or_retrospective,,,11,,,0.9439291208616383
+continuous,Random-forest SHAP (aggregated to raw feature),moa_group,,,12,,,0.8558516939594161
+continuous,Random-forest SHAP (aggregated to raw feature),ada_assay_platform,,,13,,,0.7119709449027221
+continuous,Random-forest SHAP (aggregated to raw feature),dose_mg_missing,,,14,,,0.7113834337506666
+continuous,Random-forest SHAP (aggregated to raw feature),log_n_ada_assessed,,,15,,,0.6411689735953391
+continuous,Random-forest SHAP (aggregated to raw feature),max_chain_length,,,16,,,0.5982037372514007
+continuous,Random-forest SHAP (aggregated to raw feature),log_total_sequence_length,,,17,,,0.5872262609817537
+continuous,Random-forest SHAP (aggregated to raw feature),randomized_or_not,,,18,,,0.48060458018568725
+continuous,Random-forest SHAP (aggregated to raw feature),protein_modality,,,19,,,0.46131403073083843
+continuous,Random-forest SHAP (aggregated to raw feature),ada_assay_sensitivity_missing,,,20,,,0.40909645560120506
+continuous,Random-forest SHAP (aggregated to raw feature),conjugate_modification_clean,,,21,,,0.17588698816325074
+continuous,Random-forest SHAP (aggregated to raw feature),light_chain_clean,,,22,,,0.15425708456804907
+continuous,Random-forest SHAP (aggregated to raw feature),ada_assay_missing,,,23,,,0.10534925929716815
+continuous,Random-forest SHAP (aggregated to raw feature),sequence_available,,,24,,,0.08259451461481793
+continuous,Random-forest SHAP (aggregated to raw feature),has_coadministered_drugs,,,25,,,0.07523907010222847
+continuous,Random-forest SHAP (aggregated to raw feature),comedication_missing,,,26,,,0.07258071932071074
+continuous,Random-forest SHAP (aggregated to raw feature),sequence_verified,,,27,,,0.06157297891140247
+continuous,Random-forest SHAP (aggregated to raw feature),n_unique_sequences,,,28,,,8.777746939427468e-05
+continuous,Random-forest SHAP (aggregated to raw feature),n_sequence_chains,,,29,,,1.7547616789733227e-05
+binary,Random-forest SHAP (aggregated to raw feature),target_group,,,1,,,0.05539382255492248
+binary,Random-forest SHAP (aggregated to raw feature),route_clean,,,2,,,0.03833632824776938
+binary,Random-forest SHAP (aggregated to raw feature),moa_group,,,3,,,0.028461774617875284
+binary,Random-forest SHAP (aggregated to raw feature),log_n_ada_assessed,,,4,,,0.02587039151122446
+binary,Random-forest SHAP (aggregated to raw feature),ada_assay_platform,,,5,,,0.024085560817944256
+binary,Random-forest SHAP (aggregated to raw feature),disease_category_clean,,,6,,,0.02399451255214373
+binary,Random-forest SHAP (aggregated to raw feature),trial_blinding,,,7,,,0.022640132557607637
+binary,Random-forest SHAP (aggregated to raw feature),log_dose_mg_extracted,,,8,,,0.022636134546110343
+binary,Random-forest SHAP (aggregated to raw feature),prospective_or_retrospective,,,9,,,0.019750470197060374
+binary,Random-forest SHAP (aggregated to raw feature),species,,,10,,,0.01918247436060833
+binary,Random-forest SHAP (aggregated to raw feature),log_total_sequence_length,,,11,,,0.019109342306795715
+binary,Random-forest SHAP (aggregated to raw feature),therapeutic_comparator,,,12,,,0.01783426199484105
+binary,Random-forest SHAP (aggregated to raw feature),randomized_or_not,,,13,,,0.016738468661656115
+binary,Random-forest SHAP (aggregated to raw feature),log_assessment_days,,,14,,,0.016555795955408997
+binary,Random-forest SHAP (aggregated to raw feature),antibody_backbone_clean,,,15,,,0.01595523153139744
+binary,Random-forest SHAP (aggregated to raw feature),max_chain_length,,,16,,,0.013805496689853905
+binary,Random-forest SHAP (aggregated to raw feature),labelled_as_biosimilar,,,17,,,0.012328142401876359
+binary,Random-forest SHAP (aggregated to raw feature),sequence_available,,,18,,,0.011609512262224913
+binary,Random-forest SHAP (aggregated to raw feature),ada_assay_sensitivity_missing,,,19,,,0.007957976604581484
+binary,Random-forest SHAP (aggregated to raw feature),has_coadministered_drugs,,,20,,,0.007731565715097798
+binary,Random-forest SHAP (aggregated to raw feature),ada_assay_missing,,,21,,,0.007232499180670805
+binary,Random-forest SHAP (aggregated to raw feature),comedication_missing,,,22,,,0.007134751777552517
+binary,Random-forest SHAP (aggregated to raw feature),light_chain_clean,,,23,,,0.00681651152531668
+binary,Random-forest SHAP (aggregated to raw feature),protein_modality,,,24,,,0.005392693306340528
+binary,Random-forest SHAP (aggregated to raw feature),dose_mg_missing,,,25,,,0.004122925380705389
+binary,Random-forest SHAP (aggregated to raw feature),sequence_verified,,,26,,,0.0030477240005865945
+binary,Random-forest SHAP (aggregated to raw feature),conjugate_modification_clean,,,27,,,0.002492266194772915
+binary,Random-forest SHAP (aggregated to raw feature),n_sequence_chains,,,28,,,0.00014317249828629756
+binary,Random-forest SHAP (aggregated to raw feature),n_unique_sequences,,,29,,,0.00011189963306250364

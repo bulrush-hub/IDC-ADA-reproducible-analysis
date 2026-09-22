@@ -1,0 +1,11 @@
+field_or_component,public_source,exact_publicly_available,implemented_public_proxy,strict_replication_requirement
+ADA binary outcome,Frequency of ADA+ patients + Therapeutic Exposure Status,True,Direct,None
+Therapeutic Immune MOA Type,Free-text Mechanism of Action,False,Keyword proxy,Author row-level 4-class mapping
+Disease Indication,Category + free-text description,False,Deterministic 5-group proxy,Author cancer subtype/grouping rules
+T cell Epitope Content,Sequences are public; derived predictions are not,False,Total sequence length proxy,Author NetMHCIIpan-4.3 EL + OAS/human-proteome filtered counts
+Dose Interval,Free-text dosing schedule,False,Regex cadence proxy,Author parser/manual derived numeric interval
+Route of Administration,Controlled raw route,False,4-level proxy,Author exact inclusion/grouping in complete cases
+Comedication Immune MOA Type,Free-text co-administered drugs,False,Drug-name keyword proxy,Author row-level 3-class mapping
+Dose Level,Free-text dosing description,False,Mass extraction; 70 kg/1.8 m2 assumptions,Author dose harmonization and unit conversion rules
+Year Trial was Completed,Trial End Date,True,Excel date to year,"None, subject to author's missing-date handling"
+Model formula/order,Methods + Table S6 residual-df sequence,False,Type-I order inferred from residual df,Author analysis code or explicit formula

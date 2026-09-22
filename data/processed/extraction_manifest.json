@@ -1,0 +1,39 @@
+{
+  "generated_utc": "2026-08-08T22:37:10.739Z",
+  "input_workbooks": [
+    "paper_replication/data/raw/User_IDC_DB_V1_All_Tables.xlsx",
+    "paper_replication/data/raw/Frontiers_Table_1.xlsx"
+  ],
+  "outputs": [
+    {
+      "name": "therapeutic",
+      "rows": 218,
+      "target": "paper_replication/data/processed/therapeutic.json"
+    },
+    {
+      "name": "sequence",
+      "rows": 222,
+      "target": "paper_replication/data/processed/sequence.json"
+    },
+    {
+      "name": "clinical_trial",
+      "rows": 3334,
+      "target": "paper_replication/data/processed/clinical_trial.json"
+    },
+    {
+      "name": "variables_explained",
+      "rows": 78,
+      "target": "paper_replication/data/processed/variables_explained.json"
+    },
+    {
+      "name": "controlled_language",
+      "rows": 14,
+      "target": "paper_replication/data/processed/controlled_language.json"
+    },
+    {
+      "name": "aggregated_ada",
+      "rows": 3334,
+      "target": "paper_replication/data/processed/aggregated_ada.json"
+    }
+  ]
+}

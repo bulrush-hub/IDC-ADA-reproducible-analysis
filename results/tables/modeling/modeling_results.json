@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "run_timestamp_utc": "2026-08-08T14:28:59.609869+00:00",
+    "input_file": "outputs\\IDC_modeling_table_final_model_ready.xlsx",
+    "input_sha256": "1B64526057CE479A94DAC4F622F46FA9C22EF31E16DC892DC086BBAC08A64AA1",
+    "python_version": "3.12.13",
+    "python_executable": "C:\\Users\\BulrushMarry\\Documents\\Codex\\2026-08-02\\1-bevacizumab-cd22-target-mapping-audit\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas_version": "3.0.5",
+    "numpy_version": "2.4.6",
+    "sklearn_version": "1.9.0",
+    "statsmodels_version": "0.14.6",
+    "shap_version": "0.52.0",
+    "seed": 20260802,
+    "group_cv_folds": 5
+  },
+  "validation": {
+    "rows": 2611,
+    "columns": 91,
+    "unique_idc_row_id": 2611,
+    "unique_model_split_groups": 680,
+    "high_ada_rows": 861,
+    "high_ada_prevalence": 0.3297587131367292,
+    "count_model_eligible_rows": 2506,
+    "count_mismatch_rows": 95,
+    "dependency_flag_rows": 4
+  },
+  "split_summary": {
+    "train": {
+      "rows": 1864,
+      "groups": 484,
+      "high_ada_prevalence": 0.32993562231759654,
+      "ada_mean": 13.66467583718663,
+      "ada_median": 3.0
+    },
+    "validation": {
+      "rows": 373,
+      "groups": 98,
+      "high_ada_prevalence": 0.3297587131367292,
+      "ada_mean": 14.514315409613943,
+      "ada_median": 3.1
+    },
+    "test": {
+      "rows": 374,
+      "groups": 98,
+      "high_ada_prevalence": 0.32887700534759357,
+      "ada_mean": 12.751943447369317,
+      "ada_median": 3.1
+    }
+  },
+  "selected_models": {
+    "continuous": "Random forest",
+    "binary": "Random forest",
+    "binomial_count": "Binomial GLM"
+  },
+  "count_model": {
+    "fit_method": "L2-regularized GLM fallback",
+    "development_rows": 2136,
+    "test_rows": 370,
+    "development_total_assessed": 241970,
+    "test_total_assessed": 48896,
+    "transformed_feature_count": 92
+  },
+  "artifacts": {
+    "profile": "profile.csv",
+    "model_input_missingness": "model_input_missingness.csv",
+    "target_summary": "target_summary.csv",
+    "moa_summary": "moa_summary.csv",
+    "split_audit": "split_audit.csv",
+    "performance": "performance.csv",
+    "feature_importance": "feature_importance.csv",
+    "ridge_coefficients": "ridge_coefficients.csv",
+    "logistic_coefficients": "logistic_coefficients.csv",
+    "count_coefficients": "count_coefficients.csv",
+    "reg_shap_transformed": "reg_shap_transformed.csv",
+    "cls_shap_transformed": "cls_shap_transformed.csv",
+    "sensitivity": "sensitivity.csv",
+    "predictions": "predictions.csv"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "generated_utc": "2026-08-08T22:41:07.568124+00:00",
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "mode_requested": "proxy",
+  "exact_status": "BLOCKED_EXACT_SOURCE_FIELDS",
+  "proxy_status": "COMPLETED_PUBLIC_DATA_PROXY",
+  "paper_expected_complete_cases": 1216,
+  "proxy_complete_cases": 1443,
+  "raw_clinical_rows": 3334,
+  "candidate_rows": 2666,
+  "candidate_duplicate_idc_row_identifier_rows": 20,
+  "order_sensitivity_scenarios": 15,
+  "drop_one_full_model_residual_df": 1426,
+  "user_source_binary_matches_author_github": true,
+  "user_source_values_match_frontiers": true,
+  "paper_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1816949/full",
+  "github_url": "https://github.com/Immunogenicity-Database-Collaborative/IDC-DB",
+  "github_commit": "049c8a5252396be64ac2a95a68a04384b57faa07",
+  "paper_table_s6_unchanged_between_user_preprint_and_frontiers_supplement": true
+}
