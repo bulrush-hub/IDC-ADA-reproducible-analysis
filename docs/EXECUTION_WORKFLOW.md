@@ -217,6 +217,8 @@ Set-Location ..
 - 二分类结局：`ada_high_10`；
 - 二项计数模型：仅合格的阳性数/评估人数记录；
 - 主分析使用 29 项预先固定特征，不使用分子名称和研究标识符；
+- 29项特征按科学问题标记为 Molecular 14项、Clinical 6项、Measurement 9项；唯一代码定义见 `code/modeling/feature_layers.py`；
+- 三层标签用于模型消融和解释，不改变锁定基线的特征集合或列顺序；完整设计见 `docs/FEATURE_LAYER_DESIGN.md`；
 - 按 `model_split_group` 隔离研究，禁止同一研究跨训练、验证和测试；
 - 当前固定分区为训练 1,864、验证 373、测试 374；开发集为 2,237 行；
 - 随机种子固定为 `20260802`；
@@ -487,4 +489,3 @@ Feature importance 必须做，但用途限定为模型解释和数据质量排�
 - 论文复现：`paper_replication/run_replication.py`
 - 两种去重：`paper_replication/run_dedup_scenarios.py`
 - 按分子分组嵌套 CV：`paper_replication/run_grouped_nested_cv.py`
-

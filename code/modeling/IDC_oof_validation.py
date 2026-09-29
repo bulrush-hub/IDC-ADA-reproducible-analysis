@@ -53,6 +53,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from tabpfn import TabPFNClassifier, TabPFNRegressor
 
+from feature_layers import (
+    PRIMARY_BINARY_FEATURES as BINARY_FEATURES,
+    PRIMARY_CATEGORICAL_FEATURES as CATEGORICAL_FEATURES,
+    PRIMARY_NUMERIC_FEATURES as NUMERIC_FEATURES,
+)
+
 
 SEED = 20260802
 N_SPLITS = 5
@@ -73,44 +79,6 @@ load_dotenv(ROOT / ".env", override=False)
 os.environ["TABPFN_MODEL_CACHE_DIR"] = str(MODEL_CACHE)
 os.environ.setdefault("TABPFN_NO_BROWSER", "1")
 
-
-CATEGORICAL_FEATURES = [
-    "disease_category_clean",
-    "route_clean",
-    "protein_modality",
-    "species",
-    "antibody_backbone_clean",
-    "light_chain_clean",
-    "conjugate_modification_clean",
-    "target_group",
-    "moa_group",
-    "ada_assay_platform",
-    "prospective_or_retrospective",
-    "randomized_or_not",
-    "trial_blinding",
-    "therapeutic_comparator",
-    "labelled_as_biosimilar",
-    "sequence_verified",
-]
-
-BINARY_FEATURES = [
-    "has_coadministered_drugs",
-    "comedication_missing",
-    "dose_mg_missing",
-    "sequence_available",
-    "ada_assay_missing",
-    "ada_assay_sensitivity_missing",
-]
-
-NUMERIC_FEATURES = [
-    "log_n_ada_assessed",
-    "log_assessment_days",
-    "log_dose_mg_extracted",
-    "log_total_sequence_length",
-    "n_sequence_chains",
-    "n_unique_sequences",
-    "max_chain_length",
-]
 
 FEATURES = CATEGORICAL_FEATURES + NUMERIC_FEATURES + BINARY_FEATURES
 CATEGORICAL_INDICES = tuple(range(len(CATEGORICAL_FEATURES)))

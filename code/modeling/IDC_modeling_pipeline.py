@@ -69,50 +69,19 @@ from sklearn.model_selection import (
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
+from feature_layers import (
+    FEATURE_LAYER_BY_FEATURE,
+    PRIMARY_BINARY_FEATURES,
+    PRIMARY_CATEGORICAL_FEATURES,
+    PRIMARY_NUMERIC_FEATURES,
+    build_feature_layer_manifest,
+)
+
 
 SEED = 20260802
 N_SPLITS = 5
 INPUT_RELATIVE = Path("outputs/IDC_modeling_table_final_model_ready.xlsx")
 MODEL_SHEET = "Modeling_Data"
-
-
-PRIMARY_CATEGORICAL_FEATURES = [
-    "disease_category_clean",
-    "route_clean",
-    "protein_modality",
-    "species",
-    "antibody_backbone_clean",
-    "light_chain_clean",
-    "conjugate_modification_clean",
-    "target_group",
-    "moa_group",
-    "ada_assay_platform",
-    "prospective_or_retrospective",
-    "randomized_or_not",
-    "trial_blinding",
-    "therapeutic_comparator",
-    "labelled_as_biosimilar",
-    "sequence_verified",
-]
-
-PRIMARY_BINARY_FEATURES = [
-    "has_coadministered_drugs",
-    "comedication_missing",
-    "dose_mg_missing",
-    "sequence_available",
-    "ada_assay_missing",
-    "ada_assay_sensitivity_missing",
-]
-
-PRIMARY_NUMERIC_FEATURES = [
-    "log_n_ada_assessed",
-    "log_assessment_days",
-    "log_dose_mg_extracted",
-    "log_total_sequence_length",
-    "n_sequence_chains",
-    "n_unique_sequences",
-    "max_chain_length",
-]
 
 
 # The missingness figure deliberately uses a curated source-field scope. It must
@@ -1743,9 +1712,36 @@ def run_pipeline() -> dict[str, Any]:
         ignore_index=True,
         sort=False,
     )
+    # Keep scientific interpretation separate from algorithmic importance:
+    # each predictor is labelled as molecular, clinical, or measurement.
+    feature_importance["feature_layer"] = feature_importance["feature"].map(
+        FEATURE_LAYER_BY_FEATURE
+    )
+    feature_layer_manifest = pd.DataFrame(build_feature_layer_manifest())
 
     count_performance, count_coefficients, count_metadata = fit_count_glm(
         df, partition
+    )
+    for table in (
+        ridge_coefficients,
+        logistic_coefficients,
+        reg_shap_transformed,
+        cls_shap_transformed,
+    ):
+        table["feature_layer"] = table["raw_feature"].map(
+            FEATURE_LAYER_BY_FEATURE
+        )
+    count_coefficients["raw_feature"] = count_coefficients[
+        "transformed_feature"
+    ].map(
+        lambda name: (
+            "intercept"
+            if str(name) == "intercept"
+            else transformed_feature_to_raw(str(name), categorical)
+        )
+    )
+    count_coefficients["feature_layer"] = count_coefficients["raw_feature"].map(
+        FEATURE_LAYER_BY_FEATURE
     )
     performance = pd.concat([performance, count_performance], ignore_index=True, sort=False)
 
@@ -1813,6 +1809,7 @@ def run_pipeline() -> dict[str, Any]:
         "moa_summary": moa_summary,
         "split_audit": split_audit,
         "performance": performance,
+        "feature_layer_manifest": feature_layer_manifest,
         "feature_importance": feature_importance,
         "ridge_coefficients": ridge_coefficients,
         "logistic_coefficients": logistic_coefficients,

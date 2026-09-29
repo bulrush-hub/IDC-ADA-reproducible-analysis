@@ -42,6 +42,14 @@ from sklearn.model_selection import GroupKFold
 from tabpfn import TabPFNClassifier, TabPFNRegressor
 import tabpfn
 
+from feature_layers import (
+    FEATURE_LAYER_BY_FEATURE,
+    PRIMARY_BINARY_FEATURES,
+    PRIMARY_CATEGORICAL_FEATURES,
+    PRIMARY_FEATURES,
+    PRIMARY_NUMERIC_FEATURES,
+)
+
 
 SEED = 20260802
 N_SPLITS = 5
@@ -50,49 +58,7 @@ PERMUTATION_REPEATS = 3
 EXPECTED_TABPFN_VERSION = "8.2.0"
 MODEL_SHEET = "Modeling_Data"
 
-PRIMARY_CATEGORICAL_FEATURES = [
-    "disease_category_clean",
-    "route_clean",
-    "protein_modality",
-    "species",
-    "antibody_backbone_clean",
-    "light_chain_clean",
-    "conjugate_modification_clean",
-    "target_group",
-    "moa_group",
-    "ada_assay_platform",
-    "prospective_or_retrospective",
-    "randomized_or_not",
-    "trial_blinding",
-    "therapeutic_comparator",
-    "labelled_as_biosimilar",
-    "sequence_verified",
-]
-
-PRIMARY_BINARY_FEATURES = [
-    "has_coadministered_drugs",
-    "comedication_missing",
-    "dose_mg_missing",
-    "sequence_available",
-    "ada_assay_missing",
-    "ada_assay_sensitivity_missing",
-]
-
-PRIMARY_NUMERIC_FEATURES = [
-    "log_n_ada_assessed",
-    "log_assessment_days",
-    "log_dose_mg_extracted",
-    "log_total_sequence_length",
-    "n_sequence_chains",
-    "n_unique_sequences",
-    "max_chain_length",
-]
-
-FEATURE_COLUMNS = (
-    PRIMARY_CATEGORICAL_FEATURES
-    + PRIMARY_NUMERIC_FEATURES
-    + PRIMARY_BINARY_FEATURES
-)
+FEATURE_COLUMNS = list(PRIMARY_FEATURES)
 CATEGORICAL_INDICES = tuple(range(len(PRIMARY_CATEGORICAL_FEATURES)))
 
 
@@ -344,6 +310,7 @@ def permutation_importance_table(
             {
                 "outcome": outcome,
                 "feature": feature,
+                "feature_layer": FEATURE_LAYER_BY_FEATURE[feature],
                 "importance_mean": float(np.mean(changes)),
                 "importance_sd": float(np.std(changes, ddof=1)),
                 "repeats": PERMUTATION_REPEATS,

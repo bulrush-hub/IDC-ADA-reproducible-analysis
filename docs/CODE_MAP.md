@@ -13,10 +13,17 @@
 
 ## 基线建模
 
+### `code/modeling/feature_layers.py`
+
+- 作用：集中定义 Molecular、Clinical、Measurement 三层特征及其科学问题。
+- 当前状态：把锁定的29项基线特征完整映射到三层，不改变特征集合或历史列顺序。
+- 后续候选：记录 `expression_system`、`fc_modifications_clean`、患者人群、给药间隔和序列衍生特征，但不在未经开发集验证时自动加入模型。
+- 设计说明：`docs/FEATURE_LAYER_DESIGN.md`。
+
 ### `code/modeling/IDC_modeling_pipeline.py`
 
 - 输入：`data/cleaned/IDC_modeling_table_final_model_ready.xlsx`。
-- 作用：固定 29 项特征，按研究组隔离训练/验证/测试；比较回归、分类和二项计数模型；输出预测、性能、敏感性、Permutation importance、SHAP 和系数。
+- 作用：固定29项三层特征，按研究组隔离训练/验证/测试；比较回归、分类和二项计数模型；输出预测、性能、特征层清单、敏感性、Permutation importance、SHAP 和系数。
 - 随机种子：`20260802`。
 - 环境：`.venv`。
 
@@ -73,4 +80,3 @@
 ## 工作簿生成器
 
 `code/workbook_builders/` 保存将 CSV/JSON 汇总为 Excel、渲染预览和执行校验的脚本。它们依赖原 Codex 工作区提供的表格运行时；核心统计结果均另存为 CSV/JSON，不依赖 Excel 才能审计。
-

@@ -66,6 +66,8 @@ python3.12 -m venv .venv-tabpfn
 
 推荐先阅读 [执行流程](docs/EXECUTION_WORKFLOW.md) 和 [代码地图](docs/CODE_MAP.md)，再按阶段运行。`run_all.ps1` / `run_all.sh` 是带注释的入口示例；涉及 TabPFN 的步骤需要使用者先接受 Prior Labs 的 TabPFN-3 非商业许可并在本地创建 `.env`。
 
+主模型的29项输入已在 [三层特征设计](docs/FEATURE_LAYER_DESIGN.md) 中划分为 Molecular、Clinical 和 Measurement 三层。三层分别服务于新分子外推、临床情境解释和检测/报告机会解释；目前只改变特征组织与输出标签，不追溯修改已经查看过的封存测试结果。
+
 ## 数据清洗中固定的人工审核决定
 
 - 将错误的 `Bevacizumab + CD22 + MMAE` 记录修正为 `Pinatuzumab Vedotin`，同时保留原值和审核说明。
@@ -107,4 +109,3 @@ python3.12 -m venv .venv-tabpfn
 - IDC-DB: https://github.com/Immunogenicity-Database-Collaborative/IDC-DB
 - Frontiers article: https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1816949/full
 - TabPFN: https://github.com/PriorLabs/TabPFN
-
