@@ -39,10 +39,11 @@
 - `expression_system` 虽然完整度高，也应先在开发集做按研究和按分子的分组OOF消融。
 - `fc_modifications_clean`、患者人群、具体联合用药和ADA灵敏度需先完成缺失语义或文本标准化。
 - 后续 sequence-based 模型必须以按分子隔离的验证为主，防止相同分子的序列信号跨折泄漏。
+- “同一种 biologic 的 clinical context”需要分子内或层级模型；普通 pooled 模型不能保证是同分子比较。
+- 当前IDC表缺少未检测/未报告ADA研究的完整分母；Measurement层不能直接估计所有研究中的ADA报告概率。
 
 ## 本次未执行
 
 - 未重新拟合随机森林或TabPFN。
 - 未覆盖既有性能表、预测文件或封存测试结果。
 - 未把自由文本直接编码为高基数类别。
-

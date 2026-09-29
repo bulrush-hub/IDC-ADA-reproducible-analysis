@@ -33,6 +33,8 @@
 
 这一层回答给药途径、剂量、疾病和联合治疗情境下的观察差异。当前尚不能可靠控制患者免疫状态、疾病严重程度和标准化给药间隔。
 
+严格回答“同一种 biologic 在什么 clinical context 下更容易观察到 ADA”时，不能只拟合 pooled clinical-only 模型。应使用分子随机截距/固定效应、同一分子内对比或分子表示条件化模型，并按分子与研究设计交叉验证。否则 clinical feature 仍可能吸收不同分子组成造成的差异。
+
 ### 2.3 Measurement features（9项）
 
 - 类别：`ada_assay_platform`、`prospective_or_retrospective`、`randomized_or_not`、`trial_blinding`、`therapeutic_comparator`
@@ -40,6 +42,8 @@
 - 二元：`ada_assay_missing`、`ada_assay_sensitivity_missing`
 
 这一层描述检测平台、随访机会、样本量和研究设计。它主要解释“是否更容易检测/报告 ADA”，不能解释为 biologic 的内在免疫原性。
+
+当前 IDC 表主要包含已经形成可提取 ADA 记录的研究/治疗臂，没有“开展了研究但没有检测或没有报告 ADA”的完整分母。因此，现有数据可以分析 measurement feature 与**已观察 ADA 值**之间的关联，但不能直接估计“所有研究中报告 ADA 的概率”。若要回答后一个问题，需要补充未检测/未报告研究，并单独定义报告结局；必要时使用两阶段 selection/hurdle 模型。
 
 ## 3. 下一版本候选字段
 
@@ -67,6 +71,8 @@
 4. Molecular + Clinical：预测分子在临床情境下的综合风险。
 5. Molecular + Clinical + Measurement：完整观察模型。
 6. 完整模型去除 Measurement：检查排序和误差是否主要由检测机会驱动。
+7. 同一分子临床情境模型：分子随机截距或分子固定效应，只解释分子内 clinical variation。
+8. 报告/检测模型：只有获得未检测或未报告研究分母后才拟合，不能用当前表的缺失值替代该分母。
 
 每个比较至少同时报告按研究分组和按分子分组的 OOF 指标。sequence-based 模型的主判断应以按分子分组的结果为准，因为随机行划分或仅按研究划分仍可能让同一分子的序列信息进入训练和验证两侧。
 
@@ -77,4 +83,3 @@
 - Molecular feature importance 只有在按分子隔离验证后，才能用于讨论对新 biologic 的可迁移预测。
 - 自由文本字段不能直接作为普通类别变量加入；必须先建立版本化、可审计的标准化规则。
 - 任何新特征、阈值和校准方法均应在开发集决定，再用新的外部数据验证。
-
